@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Radial Gradients</title>
+
+    <link rel="stylesheet" href="../assets/colorize/colorize-basics-radial.min.css">
+    <link rel="stylesheet" href="../assets/colorize/colorize-solids.min.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+
+    <nav>
+        <a href="solids.html">Solid Colors</a>
+        <a href="radial-gradients.html">Radial Gradients</a>
+        <a href="linear-gradients.html">Linear Gradients</a>
+    </nav>
+
+    <div class="container">
+        <h1>Table Of Content</h1>
+        <ul type="circle">
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#how-it-works">How It Works ?</a></li>
+            <li><a href="#tips">Tips</a></li>
+        </ul>
+
+        <h1 id="introduction">#Introduction</h1>
+        <section class="cl-bg-white">
+            <p>This file <span class="cl-fg-red-flat">colorize-basics-radial</span> allows you to create radial backgrounds it's super easy lets see how
+
+            <br><br>
+
+            First lets take a look at the color names available in this file because it's important for us to create the gradients, we have :
+            </p>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td>1- black</td>
+                        <td>2- white</td>
+                        <td>3- red</td>
+                    </tr>
+                    <tr>
+                        <td>4- green</td>
+                        <td>5- blue</td>
+                        <td>6- yellow</td>
+                    </tr>
+                    <tr>
+                        <td>7- orange</td>
+                        <td>8- purple</td>
+                        <td>9- pink</td>
+                    </tr>                    
+                    <tr>
+                        <td>10- brown</td>
+                        <td>11- gray</td>
+                        <td>12- gold</td>
+                    </tr>                    
+                    <tr>
+                        <td>13- maroon</td>
+                        <td>14- aqua</td>
+                        <td>15- turquoise</td>
+                    </tr>                    
+                    <tr>
+                        <td>16- lightblue</td>
+                        <td>17- lightgreen</td>
+                        <td>18- lightgray</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>
+                We have 18 different colors. To create a radial gradient we can mix any two colors together to generate the gradient <br><br> 
+                <span class="cl-fg-red-flat">Notice : You can't mix more than two colors together also you can't mix the color with itself</span>
+
+                <br><br>
+
+                So in total we can generate 153 different radial gradient if we take the inverse of them in count the total will be 306 different gradient.
+            </p>
+        </section>
+
+        <h1 id="how-it-works">#How it works ?</h1>
+        <section class="cl-bg-white">
+            <p>
+                To create a radial gradient you should use a class that follows this convention 
+                <span class="cl-fg-red-flat">grr-color1-color2</span> <br><br>
+
+                <span class="cl-fg-red-flat">grr :</span> stands for gradient radial <br>
+                <span class="cl-fg-red-flat">color1 :</span> here you specify the first color in your mix <br> 
+                <span class="cl-fg-red-flat">color2 :</span> here you specify the second color in your mix <br><br>
+
+                lets say you want to mix black and white your class should be <span class="cl-fg-red-flat">grr-black-white</span> for simplicity you don't have to memorize the order of the colors in your class so <br><br>
+
+                <span class="cl-fg-red-flat">grr-black-white</span> = <span class="cl-fg-red-flat">grr-white-black</span> <br><br>
+
+                They both will give you the exact same result take a look :
+            </p>
+
+                <div class="sample grr-white-black">
+                    <span class="cl-fg-brown">grr-white-black</span>
+                </div>
+                <div class="sample grr-black-white">
+                    <span class="cl-fg-brown">grr-black-white</span>
+                </div>
+
+            <p>
+                but what if you want to reverse the order of the mix you want white in the center and black on the outer side simple use the <span class="cl-fg-red-flat">inverse</span> flag <br><br>
+
+                So you could use either one of these : <br><br>
+                <span class="cl-fg-red-flat">grr-black-white-inverse</span><br>
+                <span class="cl-fg-red-flat">grr-white-black-inverse</span>
+
+                Here is a sample :
+            </p>
+
+            <div class="sample grr-white-black-inverse">
+                <span class="cl-fg-white">grr-white-black-inverse</span>
+            </div>
+            <div class="sample grr-black-white-inverse">
+                <span class="cl-fg-white">grr-black-white-inverse</span>
+            </div>
+        </section>
+
+        <h1 id="tips">#Tips :</h1>
+        <ol>
+            <li>We Suggest that you use these type of gradients for buttons and small elements</li>
+            <li>Before moving to the next section just take a couple of seconds and mix some colors on your own</li>
+        </ol>
+
+        <h1>#Next Section</h1>
+        <p>
+            We learned how to create radial gradients now lets move on to the <a href="linear-gradients.html">Next Section</a> and learn basic linear gradients
+        </p>
+    </div>
+
+
+
+    <span class="cl-fg-red-flat"></span>
+</body>
+</html>

@@ -1,0 +1,3082 @@
+/*
+    Author : Mohammad Istanbouly;
+    Name : Colorize Radial;
+    Version : 1.0;
+    Content : Radial Gradient backgrounds;
+    Description : 
+        This file allows you to create radial Gradient backgrounds From the
+        Available color mixes (read the documentaion to know how to use)
+*/
+
+/*
+----------------------------------
+    Black & White
+----------------------------------
+*/
+
+.grr-black-white , .grr-white-black{
+    background: -webkit-radial-gradient(black, white);
+    background: -o-radial-gradient(black, white);
+    background: -moz-radial-gradient(black, white);
+    background: radial-gradient(black, white);
+}
+
+/*INVERSE*/
+
+.grr-black-white-inverse , .grr-white-black-inverse {
+    background: -webkit-radial-gradient(white , black);
+    background: -o-radial-gradient(white , black);
+    background: -moz-radial-gradient(white , black);
+    background: radial-gradient(white , black);
+}
+
+/*
+----------------------------------
+    Red & White
+----------------------------------
+*/
+
+.grr-white-red , .grr-red-white {
+    background: -webkit-radial-gradient(white, red);
+    background: -o-radial-gradient(white, red);
+    background: -moz-radial-gradient(white, red);
+    background: radial-gradient(white, red);
+}
+
+.grr-white-red-inverse , .grr-red-white-inverse {
+    background: -webkit-radial-gradient(red, white);
+    background: -o-radial-gradient(red, white);
+    background: -moz-radial-gradient(red, white);
+    background: radial-gradient(red, white);
+}
+
+/*
+----------------------------------
+    Blue & White
+----------------------------------
+*/
+
+.grr-white-blue , .grr-blue-white {
+    background: -webkit-radial-gradient(white, blue);
+    background: -o-radial-gradient(white, blue);
+    background: -moz-radial-gradient(white, blue);
+    background: radial-gradient(white, blue);
+}
+
+.grr-white-blue-inverse , .grr-blue-white-inverse {
+    background: -webkit-radial-gradient(blue, white);
+    background: -o-radial-gradient(blue, white);
+    background: -moz-radial-gradient(blue, white);
+    background: radial-gradient(blue, white);
+}
+
+/*
+----------------------------------
+    Green & White
+----------------------------------
+*/
+
+.grr-white-green , .grr-green-white {
+    background: -webkit-radial-gradient(white, green);
+    background: -o-radial-gradient(white, green);
+    background: -moz-radial-gradient(white, green);
+    background: radial-gradient(white, green);
+}
+
+.grr-white-green-inverse , .grr-green-white-inverse {
+    background: -webkit-radial-gradient(green, white);
+    background: -o-radial-gradient(green, white);
+    background: -moz-radial-gradient(green, white);
+    background: radial-gradient(green, white);
+}
+
+/*
+----------------------------------
+    Yellow & White
+----------------------------------
+*/
+
+.grr-white-yellow , .grr-yellow-white {
+    background: -webkit-radial-gradient(white, yellow);
+    background: -o-radial-gradient(white, yellow);
+    background: -moz-radial-gradient(white, yellow);
+    background: radial-gradient(white, yellow);
+}
+
+.grr-white-yellow-inverse , .grr-yellow-white-inverse {
+    background: -webkit-radial-gradient(yellow, white);
+    background: -o-radial-gradient(yellow, white);
+    background: -moz-radial-gradient(yellow, white);
+    background: radial-gradient(yellow, white);
+}
+
+/*
+----------------------------------
+    Orange & White
+----------------------------------
+*/
+
+.grr-white-orange , .grr-orange-white {
+    background: -webkit-radial-gradient(white, orange);
+    background: -o-radial-gradient(white, orange);
+    background: -moz-radial-gradient(white, orange);
+    background: radial-gradient(white, orange);
+}
+
+.grr-white-orange-inverse , .grr-orange-white-inverse {
+    background: -webkit-radial-gradient(orange, white);
+    background: -o-radial-gradient(orange, white);
+    background: -moz-radial-gradient(orange, white);
+    background: radial-gradient(orange, white);
+}
+
+/*
+----------------------------------
+    Purple & White
+----------------------------------
+*/
+
+.grr-white-purple , .grr-purple-white {
+    background: -webkit-radial-gradient(white, purple);
+    background: -o-radial-gradient(white, purple);
+    background: -moz-radial-gradient(white, purple);
+    background: radial-gradient(white, purple);
+}
+
+.grr-white-purple-inverse , .grr-purple-white-inverse {
+    background: -webkit-radial-gradient(purple, white);
+    background: -o-radial-gradient(purple, white);
+    background: -moz-radial-gradient(purple, white);
+    background: radial-gradient(purple, white);
+}
+
+/*
+----------------------------------
+    Pink & White
+----------------------------------
+*/
+
+.grr-white-pink , .grr-pink-white {
+    background: -webkit-radial-gradient(white, pink);
+    background: -o-radial-gradient(white, pink);
+    background: -moz-radial-gradient(white, pink);
+    background: radial-gradient(white, pink);
+}
+
+.grr-white-pink-inverse , .grr-pink-white-inverse {
+    background: -webkit-radial-gradient(pink, white);
+    background: -o-radial-gradient(pink, white);
+    background: -moz-radial-gradient(pink, white);
+    background: radial-gradient(pink, white);
+}
+
+/*
+----------------------------------
+    Brown & White
+----------------------------------
+*/
+
+.grr-white-brown , .grr-brown-white {
+    background: -webkit-radial-gradient(white, brown);
+    background: -o-radial-gradient(white, brown);
+    background: -moz-radial-gradient(white, brown);
+    background: radial-gradient(white, brown);
+}
+
+.grr-white-brown-inverse , .grr-brown-white-inverse {
+    background: -webkit-radial-gradient(brown, white);
+    background: -o-radial-gradient(brown, white);
+    background: -moz-radial-gradient(brown, white);
+    background: radial-gradient(brown, white);
+}
+
+/*
+----------------------------------
+    Gray & White
+----------------------------------
+*/
+
+.grr-white-gray , .grr-gray-white {
+    background: -webkit-radial-gradient(white, gray);
+    background: -o-radial-gradient(white, gray);
+    background: -moz-radial-gradient(white, gray);
+    background: radial-gradient(white, gray);
+}
+
+.grr-white-gray-inverse , .grr-gray-white-inverse {
+    background: -webkit-radial-gradient(gray, white);
+    background: -o-radial-gradient(gray, white);
+    background: -moz-radial-gradient(gray, white);
+    background: radial-gradient(gray, white);
+}
+
+/*
+----------------------------------
+    Gold & White
+----------------------------------
+*/
+
+.grr-white-gold , .grr-gold-white {
+    background: -webkit-radial-gradient(white, gold);
+    background: -o-radial-gradient(white, gold);
+    background: -moz-radial-gradient(white, gold);
+    background: radial-gradient(white, gold);
+}
+
+.grr-white-gold-inverse , .grr-gold-white-inverse {
+    background: -webkit-radial-gradient(gold, white);
+    background: -o-radial-gradient(gold, white);
+    background: -moz-radial-gradient(gold, white);
+    background: radial-gradient(gold, white);
+}
+
+/*
+----------------------------------
+    Maroon & White
+----------------------------------
+*/
+
+.grr-white-maroon , .grr-maroon-white {
+    background: -webkit-radial-gradient(white, maroon);
+    background: -o-radial-gradient(white, maroon);
+    background: -moz-radial-gradient(white, maroon);
+    background: radial-gradient(white, maroon);
+}
+
+.grr-white-maroon-inverse , .grr-maroon-white-inverse {
+    background: -webkit-radial-gradient(maroon, white);
+    background: -o-radial-gradient(maroon, white);
+    background: -moz-radial-gradient(maroon, white);
+    background: radial-gradient(maroon, white);
+}
+
+/*
+----------------------------------
+    Aqua & White
+----------------------------------
+*/
+
+.grr-white-aqua , .grr-aqua-white {
+    background: -webkit-radial-gradient(white, aqua);
+    background: -o-radial-gradient(white, aqua);
+    background: -moz-radial-gradient(white, aqua);
+    background: radial-gradient(white, aqua);
+}
+
+.grr-white-aqua-inverse , .grr-aqua-white-inverse {
+    background: -webkit-radial-gradient(aqua, white);
+    background: -o-radial-gradient(aqua, white);
+    background: -moz-radial-gradient(aqua, white);
+    background: radial-gradient(aqua, white);
+}
+
+/*
+----------------------------------
+    Turquoise & White
+----------------------------------
+*/
+
+.grr-white-turquoise , .grr-turquoise-white {
+    background: -webkit-radial-gradient(white, turquoise);
+    background: -o-radial-gradient(white, turquoise);
+    background: -moz-radial-gradient(white, turquoise);
+    background: radial-gradient(white, turquoise);
+}
+
+.grr-white-turquoise-inverse , .grr-turquoise-white-inverse {
+    background: -webkit-radial-gradient(turquoise, white);
+    background: -o-radial-gradient(turquoise, white);
+    background: -moz-radial-gradient(turquoise, white);
+    background: radial-gradient(turquoise, white);
+}
+
+
+/*
+----------------------------------
+    Lightblue & White
+----------------------------------
+*/
+
+.grr-white-lightblue , .grr-lightblue-white {
+    background: -webkit-radial-gradient(white, lightblue);
+    background: -o-radial-gradient(white, lightblue);
+    background: -moz-radial-gradient(white, lightblue);
+    background: radial-gradient(white, lightblue);
+}
+
+
+.grr-white-lightblue-inverse , .grr-lightblue-white-inverse {
+    background: -webkit-radial-gradient(lightblue, white);
+    background: -o-radial-gradient(lightblue, white);
+    background: -moz-radial-gradient(lightblue, white);
+    background: radial-gradient(lightblue, white);
+}
+
+/*
+----------------------------------
+    Lightgreen & White
+----------------------------------
+*/
+
+.grr-white-lightgreen , .grr-lightgreen-white {
+    background: -webkit-radial-gradient(white, lightgreen);
+    background: -o-radial-gradient(white, lightgreen);
+    background: -moz-radial-gradient(white, lightgreen);
+    background: radial-gradient(white, lightgreen);
+}
+
+
+.grr-white-lightgreen-inverse , .grr-lightgreen-white-inverse {
+    background: -webkit-radial-gradient(lightgreen, white);
+    background: -o-radial-gradient(lightgreen, white);
+    background: -moz-radial-gradient(lightgreen, white);
+    background: radial-gradient(lightgreen, white);
+}
+
+/*
+----------------------------------
+    Lightgray & White
+----------------------------------
+*/
+
+.grr-white-lightgray , .grr-lightgray-white {
+    background: -webkit-radial-gradient(white, lightgray);
+    background: -o-radial-gradient(white, lightgray);
+    background: -moz-radial-gradient(white, lightgray);
+    background: radial-gradient(white, lightgray);
+}
+
+
+.grr-white-lightgray-inverse , .grr-lightgray-white-inverse {
+    background: -webkit-radial-gradient(lightgray, white);
+    background: -o-radial-gradient(lightgray, white);
+    background: -moz-radial-gradient(lightgray, white);
+    background: radial-gradient(lightgray, white);
+}
+
+
+/*
+-------------------------------------------------------------------------
+    DARK GRADIENTS (Base Color is Black)
+-------------------------------------------------------------------------
+*/
+
+
+/*
+----------------------------------
+black & red
+----------------------------------
+*/
+
+.grr-black-red , .grr-red-black {
+    background: -webkit-radial-gradient(black, red);
+    background: -o-radial-gradient(black, red);
+    background: -moz-radial-gradient(black, red);
+    background: radial-gradient(black, red);
+}
+
+.grr-black-red-inverse , .grr-red-black-inverse {
+    background: -webkit-radial-gradient(red, black);
+    background: -o-radial-gradient(red, black);
+    background: -moz-radial-gradient(red, black);
+    background: radial-gradient(red, black);
+}
+
+/*
+----------------------------------
+black & blue
+----------------------------------
+*/
+
+.grr-black-blue , .grr-blue-black {
+    background: -webkit-radial-gradient(black, blue);
+    background: -o-radial-gradient(black, blue);
+    background: -moz-radial-gradient(black, blue);
+    background: radial-gradient(black, blue);
+}
+
+.grr-black-blue-inverse , .grr-blue-black-inverse {
+    background: -webkit-radial-gradient(blue, black);
+    background: -o-radial-gradient(blue, black);
+    background: -moz-radial-gradient(blue, black);
+    background: radial-gradient(blue, black);
+}
+
+/*
+----------------------------------
+black & green
+----------------------------------
+*/
+
+.grr-black-green , .grr-green-black {
+    background: -webkit-radial-gradient(black, green);
+    background: -o-radial-gradient(black, green);
+    background: -moz-radial-gradient(black, green);
+    background: radial-gradient(black, green);
+}
+
+.grr-black-green-inverse , .grr-green-black-inverse {
+    background: -webkit-radial-gradient(green, black);
+    background: -o-radial-gradient(green, black);
+    background: -moz-radial-gradient(green, black);
+    background: radial-gradient(green, black);
+}
+
+/*
+----------------------------------
+black & yellow
+----------------------------------
+*/
+
+.grr-black-yellow , .grr-yellow-black {
+    background: -webkit-radial-gradient(black, yellow);
+    background: -o-radial-gradient(black, yellow);
+    background: -moz-radial-gradient(black, yellow);
+    background: radial-gradient(black, yellow);
+}
+
+.grr-black-yellow-inverse , .grr-yellow-black-inverse {
+    background: -webkit-radial-gradient(yellow, black);
+    background: -o-radial-gradient(yellow, black);
+    background: -moz-radial-gradient(yellow, black);
+    background: radial-gradient(yellow, black);
+}
+
+/*
+----------------------------------
+black & orange
+----------------------------------
+*/
+
+.grr-black-orange , .grr-orange-black {
+    background: -webkit-radial-gradient(black, orange);
+    background: -o-radial-gradient(black, orange);
+    background: -moz-radial-gradient(black, orange);
+    background: radial-gradient(black, orange);
+}
+
+.grr-black-orange-inverse , .grr-orange-black-inverse {
+    background: -webkit-radial-gradient(orange, black);
+    background: -o-radial-gradient(orange, black);
+    background: -moz-radial-gradient(orange, black);
+    background: radial-gradient(orange, black);
+}
+
+/*
+----------------------------------
+black & purple
+----------------------------------
+*/
+
+.grr-black-purple , .grr-purple-black {
+    background: -webkit-radial-gradient(black, purple);
+    background: -o-radial-gradient(black, purple);
+    background: -moz-radial-gradient(black, purple);
+    background: radial-gradient(black, purple);
+}
+
+.grr-black-purple-inverse , .grr-purple-black-inverse {
+    background: -webkit-radial-gradient(purple, black);
+    background: -o-radial-gradient(purple, black);
+    background: -moz-radial-gradient(purple, black);
+    background: radial-gradient(purple, black);
+}
+
+/*
+----------------------------------
+black & pink
+----------------------------------
+*/
+
+.grr-black-pink , .grr-pink-black {
+    background: -webkit-radial-gradient(black, pink);
+    background: -o-radial-gradient(black, pink);
+    background: -moz-radial-gradient(black, pink);
+    background: radial-gradient(black, pink);
+}
+
+.grr-black-pink-inverse , .grr-pink-black-inverse {
+    background: -webkit-radial-gradient(pink, black);
+    background: -o-radial-gradient(pink, black);
+    background: -moz-radial-gradient(pink, black);
+    background: radial-gradient(pink, black);
+}
+
+/*
+----------------------------------
+black & brown
+----------------------------------
+*/
+
+.grr-black-brown , .grr-brown-black {
+    background: -webkit-radial-gradient(black, brown);
+    background: -o-radial-gradient(black, brown);
+    background: -moz-radial-gradient(black, brown);
+    background: radial-gradient(black, brown);
+}
+
+.grr-black-brown-inverse , .grr-brown-black-inverse {
+    background: -webkit-radial-gradient(brown, black);
+    background: -o-radial-gradient(brown, black);
+    background: -moz-radial-gradient(brown, black);
+    background: radial-gradient(brown, black);
+}
+
+/*
+----------------------------------
+black & gray
+----------------------------------
+*/
+
+.grr-black-gray , .grr-gray-black {
+    background: -webkit-radial-gradient(black, gray);
+    background: -o-radial-gradient(black, gray);
+    background: -moz-radial-gradient(black, gray);
+    background: radial-gradient(black, gray);
+}
+
+.grr-black-gray-inverse , .grr-gray-black-inverse {
+    background: -webkit-radial-gradient(gray, black);
+    background: -o-radial-gradient(gray, black);
+    background: -moz-radial-gradient(gray, black);
+    background: radial-gradient(gray, black);
+}
+
+/*
+----------------------------------
+black & gold
+----------------------------------
+*/
+
+.grr-black-gold , .grr-gold-black {
+    background: -webkit-radial-gradient(black, gold);
+    background: -o-radial-gradient(black, gold);
+    background: -moz-radial-gradient(black, gold);
+    background: radial-gradient(black, gold);
+}
+
+.grr-black-gold-inverse , .grr-gold-black-inverse {
+    background: -webkit-radial-gradient(gold, black);
+    background: -o-radial-gradient(gold, black);
+    background: -moz-radial-gradient(gold, black);
+    background: radial-gradient(gold, black);
+}
+
+/*
+----------------------------------
+black & maroon
+----------------------------------
+*/
+
+.grr-black-maroon , .grr-maroon-black {
+    background: -webkit-radial-gradient(black, maroon);
+    background: -o-radial-gradient(black, maroon);
+    background: -moz-radial-gradient(black, maroon);
+    background: radial-gradient(black, maroon);
+}
+
+.grr-black-maroon-inverse , .grr-maroon-black-inverse {
+    background: -webkit-radial-gradient(maroon, black);
+    background: -o-radial-gradient(maroon, black);
+    background: -moz-radial-gradient(maroon, black);
+    background: radial-gradient(maroon, black);
+}
+
+/*
+----------------------------------
+black & aqua
+----------------------------------
+*/
+
+.grr-black-aqua , .grr-aqua-black {
+    background: -webkit-radial-gradient(black, aqua);
+    background: -o-radial-gradient(black, aqua);
+    background: -moz-radial-gradient(black, aqua);
+    background: radial-gradient(black, aqua);
+}
+
+.grr-black-aqua-inverse , .grr-aqua-black-inverse {
+    background: -webkit-radial-gradient(aqua, black);
+    background: -o-radial-gradient(aqua, black);
+    background: -moz-radial-gradient(aqua, black);
+    background: radial-gradient(aqua, black);
+}
+
+/*
+----------------------------------
+black & turquoise
+----------------------------------
+*/
+
+.grr-black-turquoise , .grr-turquoise-black {
+    background: -webkit-radial-gradient(black, turquoise);
+    background: -o-radial-gradient(black, turquoise);
+    background: -moz-radial-gradient(black, turquoise);
+    background: radial-gradient(black, turquoise);
+}
+
+.grr-black-turquoise-inverse , .grr-turquoise-black-inverse {
+    background: -webkit-radial-gradient(turquoise, black);
+    background: -o-radial-gradient(turquoise, black);
+    background: -moz-radial-gradient(turquoise, black);
+    background: radial-gradient(turquoise, black);
+}
+
+/*
+----------------------------------
+black & lightblue
+----------------------------------
+*/
+
+.grr-black-lightblue , .grr-lightblue-black {
+    background: -webkit-radial-gradient(black, lightblue);
+    background: -o-radial-gradient(black, lightblue);
+    background: -moz-radial-gradient(black, lightblue);
+    background: radial-gradient(black, lightblue);
+}
+
+.grr-black-lightblue-inverse , .grr-lightblue-black-inverse {
+    background: -webkit-radial-gradient(lightblue, black);
+    background: -o-radial-gradient(lightblue, black);
+    background: -moz-radial-gradient(lightblue, black);
+    background: radial-gradient(lightblue, black);
+}
+
+/*
+----------------------------------
+black & lightgreen
+----------------------------------
+*/
+
+.grr-black-lightgreen , .grr-lightgreen-black {
+    background: -webkit-radial-gradient(black, lightgreen);
+    background: -o-radial-gradient(black, lightgreen);
+    background: -moz-radial-gradient(black, lightgreen);
+    background: radial-gradient(black, lightgreen);
+}
+
+.grr-black-lightgreen-inverse , .grr-lightgreen-black-inverse {
+    background: -webkit-radial-gradient(lightgreen, black);
+    background: -o-radial-gradient(lightgreen, black);
+    background: -moz-radial-gradient(lightgreen, black);
+    background: radial-gradient(lightgreen, black);
+}
+
+/*
+----------------------------------
+black & lightgray
+----------------------------------
+*/
+
+.grr-black-lightgray , .grr-lightgray-black {
+    background: -webkit-radial-gradient(black, lightgray);
+    background: -o-radial-gradient(black, lightgray);
+    background: -moz-radial-gradient(black, lightgray);
+    background: radial-gradient(black, lightgray);
+}
+
+.grr-black-lightgray-inverse , .grr-lightgray-black-inverse {
+    background: -webkit-radial-gradient(lightgray, black);
+    background: -o-radial-gradient(lightgray, black);
+    background: -moz-radial-gradient(lightgray, black);
+    background: radial-gradient(lightgray, black);
+}
+
+
+
+/*
+-------------------------------------------------------------------------
+    Medium GRADIENTS (Base Color is Gray)
+-------------------------------------------------------------------------
+*/
+
+/*
+----------------------------------
+gray & red
+----------------------------------
+*/
+
+.grr-gray-red , .grr-red-gray {
+    background: -webkit-radial-gradient(gray, red);
+    background: -o-radial-gradient(gray, red);
+    background: -moz-radial-gradient(gray, red);
+    background: radial-gradient(gray, red);
+}
+
+.grr-gray-red-inverse , .grr-red-gray-inverse {
+    background: -webkit-radial-gradient(red, gray);
+    background: -o-radial-gradient(red, gray);
+    background: -moz-radial-gradient(red, gray);
+    background: radial-gradient(red, gray);
+}
+
+/*
+----------------------------------
+gray & blue
+----------------------------------
+*/
+
+.grr-gray-blue , .grr-blue-gray {
+    background: -webkit-radial-gradient(gray, blue);
+    background: -o-radial-gradient(gray, blue);
+    background: -moz-radial-gradient(gray, blue);
+    background: radial-gradient(gray, blue);
+}
+
+.grr-gray-blue-inverse , .grr-blue-gray-inverse {
+    background: -webkit-radial-gradient(blue, gray);
+    background: -o-radial-gradient(blue, gray);
+    background: -moz-radial-gradient(blue, gray);
+    background: radial-gradient(blue, gray);
+}
+
+/*
+----------------------------------
+gray & green
+----------------------------------
+*/
+
+.grr-gray-green , .grr-green-gray {
+    background: -webkit-radial-gradient(gray, green);
+    background: -o-radial-gradient(gray, green);
+    background: -moz-radial-gradient(gray, green);
+    background: radial-gradient(gray, green);
+}
+
+.grr-gray-green-inverse , .grr-green-gray-inverse {
+    background: -webkit-radial-gradient(green, gray);
+    background: -o-radial-gradient(green, gray);
+    background: -moz-radial-gradient(green, gray);
+    background: radial-gradient(green, gray);
+}
+
+/*
+----------------------------------
+gray & yellow
+----------------------------------
+*/
+
+.grr-gray-yellow , .grr-yellow-gray {
+    background: -webkit-radial-gradient(gray, yellow);
+    background: -o-radial-gradient(gray, yellow);
+    background: -moz-radial-gradient(gray, yellow);
+    background: radial-gradient(gray, yellow);
+}
+
+.grr-gray-yellow-inverse , .grr-yellow-gray-inverse {
+    background: -webkit-radial-gradient(yellow, gray);
+    background: -o-radial-gradient(yellow, gray);
+    background: -moz-radial-gradient(yellow, gray);
+    background: radial-gradient(yellow, gray);
+}
+
+/*
+----------------------------------
+gray & orange
+----------------------------------
+*/
+
+.grr-gray-orange , .grr-orange-gray {
+    background: -webkit-radial-gradient(gray, orange);
+    background: -o-radial-gradient(gray, orange);
+    background: -moz-radial-gradient(gray, orange);
+    background: radial-gradient(gray, orange);
+}
+
+.grr-gray-orange-inverse , .grr-orange-gray-inverse {
+    background: -webkit-radial-gradient(orange, gray);
+    background: -o-radial-gradient(orange, gray);
+    background: -moz-radial-gradient(orange, gray);
+    background: radial-gradient(orange, gray);
+}
+
+/*
+----------------------------------
+gray & purple
+----------------------------------
+*/
+
+.grr-gray-purple , .grr-purple-gray {
+    background: -webkit-radial-gradient(gray, purple);
+    background: -o-radial-gradient(gray, purple);
+    background: -moz-radial-gradient(gray, purple);
+    background: radial-gradient(gray, purple);
+}
+
+.grr-gray-purple-inverse , .grr-purple-gray-inverse {
+    background: -webkit-radial-gradient(purple, gray);
+    background: -o-radial-gradient(purple, gray);
+    background: -moz-radial-gradient(purple, gray);
+    background: radial-gradient(purple, gray);
+}
+
+/*
+----------------------------------
+gray & pink
+----------------------------------
+*/
+
+.grr-gray-pink , .grr-pink-gray {
+    background: -webkit-radial-gradient(gray, pink);
+    background: -o-radial-gradient(gray, pink);
+    background: -moz-radial-gradient(gray, pink);
+    background: radial-gradient(gray, pink);
+}
+
+.grr-gray-pink-inverse , .grr-pink-gray-inverse {
+    background: -webkit-radial-gradient(pink, gray);
+    background: -o-radial-gradient(pink, gray);
+    background: -moz-radial-gradient(pink, gray);
+    background: radial-gradient(pink, gray);
+}
+
+/*
+----------------------------------
+gray & brown
+----------------------------------
+*/
+
+.grr-gray-brown , .grr-brown-gray {
+    background: -webkit-radial-gradient(gray, brown);
+    background: -o-radial-gradient(gray, brown);
+    background: -moz-radial-gradient(gray, brown);
+    background: radial-gradient(gray, brown);
+}
+
+.grr-gray-brown-inverse , .grr-brown-gray-inverse {
+    background: -webkit-radial-gradient(brown, gray);
+    background: -o-radial-gradient(brown, gray);
+    background: -moz-radial-gradient(brown, gray);
+    background: radial-gradient(brown, gray);
+}
+
+/*
+----------------------------------
+gray & gray
+----------------------------------
+*/
+
+.grr-gray-gray , .grr-gray-gray {
+    background: -webkit-radial-gradient(gray, gray);
+    background: -o-radial-gradient(gray, gray);
+    background: -moz-radial-gradient(gray, gray);
+    background: radial-gradient(gray, gray);
+}
+
+.grr-gray-gray-inverse , .grr-gray-gray-inverse {
+    background: -webkit-radial-gradient(gray, gray);
+    background: -o-radial-gradient(gray, gray);
+    background: -moz-radial-gradient(gray, gray);
+    background: radial-gradient(gray, gray);
+}
+
+/*
+----------------------------------
+gray & turquoise
+----------------------------------
+*/
+
+.grr-gray-turquoise , .grr-turquoise-gray {
+    background: -webkit-radial-gradient(gray, turquoise);
+    background: -o-radial-gradient(gray, turquoise);
+    background: -moz-radial-gradient(gray, turquoise);
+    background: radial-gradient(gray, turquoise);
+}
+
+.grr-gray-turquoise-inverse , .grr-turquoise-gray-inverse {
+    background: -webkit-radial-gradient(turquoise, gray);
+    background: -o-radial-gradient(turquoise, gray);
+    background: -moz-radial-gradient(turquoise, gray);
+    background: radial-gradient(turquoise, gray);
+}
+
+/*
+----------------------------------
+gray & lightblue
+----------------------------------
+*/
+
+.grr-gray-lightblue , .grr-lightblue-gray {
+    background: -webkit-radial-gradient(gray, lightblue);
+    background: -o-radial-gradient(gray, lightblue);
+    background: -moz-radial-gradient(gray, lightblue);
+    background: radial-gradient(gray, lightblue);
+}
+
+.grr-gray-lightblue-inverse , .grr-lightblue-gray-inverse {
+    background: -webkit-radial-gradient(lightblue, gray);
+    background: -o-radial-gradient(lightblue, gray);
+    background: -moz-radial-gradient(lightblue, gray);
+    background: radial-gradient(lightblue, gray);
+}
+
+/*
+----------------------------------
+gray & lightgreen
+----------------------------------
+*/
+
+.grr-gray-lightgreen , .grr-lightgreen-gray {
+    background: -webkit-radial-gradient(gray, lightgreen);
+    background: -o-radial-gradient(gray, lightgreen);
+    background: -moz-radial-gradient(gray, lightgreen);
+    background: radial-gradient(gray, lightgreen);
+}
+
+.grr-gray-lightgreen-inverse , .grr-lightgreen-gray-inverse {
+    background: -webkit-radial-gradient(lightgreen, gray);
+    background: -o-radial-gradient(lightgreen, gray);
+    background: -moz-radial-gradient(lightgreen, gray);
+    background: radial-gradient(lightgreen, gray);
+}
+
+/*
+----------------------------------
+gray & lightgray
+----------------------------------
+*/
+
+.grr-gray-lightgray , .grr-lightgray-gray {
+    background: -webkit-radial-gradient(gray, lightgray);
+    background: -o-radial-gradient(gray, lightgray);
+    background: -moz-radial-gradient(gray, lightgray);
+    background: radial-gradient(gray, lightgray);
+}
+
+.grr-gray-lightgray-inverse , .grr-lightgray-gray-inverse {
+    background: -webkit-radial-gradient(lightgray, gray);
+    background: -o-radial-gradient(lightgray, gray);
+    background: -moz-radial-gradient(lightgray, gray);
+    background: radial-gradient(lightgray, gray);
+}
+
+
+/*
+-------------------------------------------------------------------------
+    Medium GRADIENTS (Base Color is lightgray)
+-------------------------------------------------------------------------
+*/
+
+
+/*
+----------------------------------
+lightgray & red
+----------------------------------
+*/
+
+.grr-lightgray-red , .grr-red-lightgray {
+    background: -webkit-radial-gradient(lightgray, red);
+    background: -o-radial-gradient(lightgray, red);
+    background: -moz-radial-gradient(lightgray, red);
+    background: radial-gradient(lightgray, red);
+}
+
+.grr-lightgray-red-inverse , .grr-red-lightgray-inverse {
+    background: -webkit-radial-gradient(red, lightgray);
+    background: -o-radial-gradient(red, lightgray);
+    background: -moz-radial-gradient(red, lightgray);
+    background: radial-gradient(red, lightgray);
+}
+
+/*
+----------------------------------
+lightgray & blue
+----------------------------------
+*/
+
+.grr-lightgray-blue , .grr-blue-lightgray {
+    background: -webkit-radial-gradient(lightgray, blue);
+    background: -o-radial-gradient(lightgray, blue);
+    background: -moz-radial-gradient(lightgray, blue);
+    background: radial-gradient(lightgray, blue);
+}
+
+.grr-lightgray-blue-inverse , .grr-blue-lightgray-inverse {
+    background: -webkit-radial-gradient(blue, lightgray);
+    background: -o-radial-gradient(blue, lightgray);
+    background: -moz-radial-gradient(blue, lightgray);
+    background: radial-gradient(blue, lightgray);
+}
+
+/*
+----------------------------------
+lightgray & green
+----------------------------------
+*/
+
+.grr-lightgray-green , .grr-green-lightgray {
+    background: -webkit-radial-gradient(lightgray, green);
+    background: -o-radial-gradient(lightgray, green);
+    background: -moz-radial-gradient(lightgray, green);
+    background: radial-gradient(lightgray, green);
+}
+
+.grr-lightgray-green-inverse , .grr-green-lightgray-inverse {
+    background: -webkit-radial-gradient(green, lightgray);
+    background: -o-radial-gradient(green, lightgray);
+    background: -moz-radial-gradient(green, lightgray);
+    background: radial-gradient(green, lightgray);
+}
+
+/*
+----------------------------------
+lightgray & yellow
+----------------------------------
+*/
+
+.grr-lightgray-yellow , .grr-yellow-lightgray {
+    background: -webkit-radial-gradient(lightgray, yellow);
+    background: -o-radial-gradient(lightgray, yellow);
+    background: -moz-radial-gradient(lightgray, yellow);
+    background: radial-gradient(lightgray, yellow);
+}
+
+.grr-lightgray-yellow-inverse , .grr-yellow-lightgray-inverse {
+    background: -webkit-radial-gradient(yellow, lightgray);
+    background: -o-radial-gradient(yellow, lightgray);
+    background: -moz-radial-gradient(yellow, lightgray);
+    background: radial-gradient(yellow, lightgray);
+}
+
+/*
+----------------------------------
+lightgray & orange
+----------------------------------
+*/
+
+.grr-lightgray-orange , .grr-orange-lightgray {
+    background: -webkit-radial-gradient(lightgray, orange);
+    background: -o-radial-gradient(lightgray, orange);
+    background: -moz-radial-gradient(lightgray, orange);
+    background: radial-gradient(lightgray, orange);
+}
+
+.grr-lightgray-orange-inverse , .grr-orange-lightgray-inverse {
+    background: -webkit-radial-gradient(orange, lightgray);
+    background: -o-radial-gradient(orange, lightgray);
+    background: -moz-radial-gradient(orange, lightgray);
+    background: radial-gradient(orange, lightgray);
+}
+
+/*
+----------------------------------
+lightgray & purple
+----------------------------------
+*/
+
+.grr-lightgray-purple , .grr-purple-lightgray {
+    background: -webkit-radial-gradient(lightgray, purple);
+    background: -o-radial-gradient(lightgray, purple);
+    background: -moz-radial-gradient(lightgray, purple);
+    background: radial-gradient(lightgray, purple);
+}
+
+.grr-lightgray-purple-inverse , .grr-purple-lightgray-inverse {
+    background: -webkit-radial-gradient(purple, lightgray);
+    background: -o-radial-gradient(purple, lightgray);
+    background: -moz-radial-gradient(purple, lightgray);
+    background: radial-gradient(purple, lightgray);
+}
+
+/*
+----------------------------------
+lightgray & pink
+----------------------------------
+*/
+
+.grr-lightgray-pink , .grr-pink-lightgray {
+    background: -webkit-radial-gradient(lightgray, pink);
+    background: -o-radial-gradient(lightgray, pink);
+    background: -moz-radial-gradient(lightgray, pink);
+    background: radial-gradient(lightgray, pink);
+}
+
+.grr-lightgray-pink-inverse , .grr-pink-lightgray-inverse {
+    background: -webkit-radial-gradient(pink, lightgray);
+    background: -o-radial-gradient(pink, lightgray);
+    background: -moz-radial-gradient(pink, lightgray);
+    background: radial-gradient(pink, lightgray);
+}
+
+/*
+----------------------------------
+lightgray & brown
+----------------------------------
+*/
+
+.grr-lightgray-brown , .grr-brown-lightgray {
+    background: -webkit-radial-gradient(lightgray, brown);
+    background: -o-radial-gradient(lightgray, brown);
+    background: -moz-radial-gradient(lightgray, brown);
+    background: radial-gradient(lightgray, brown);
+}
+
+.grr-lightgray-brown-inverse , .grr-brown-lightgray-inverse {
+    background: -webkit-radial-gradient(brown, lightgray);
+    background: -o-radial-gradient(brown, lightgray);
+    background: -moz-radial-gradient(brown, lightgray);
+    background: radial-gradient(brown, lightgray);
+}
+
+/*
+----------------------------------
+lightgray & turquoise
+----------------------------------
+*/
+
+.grr-lightgray-turquoise , .grr-turquoise-lightgray {
+    background: -webkit-radial-gradient(lightgray, turquoise);
+    background: -o-radial-gradient(lightgray, turquoise);
+    background: -moz-radial-gradient(lightgray, turquoise);
+    background: radial-gradient(lightgray, turquoise);
+}
+
+.grr-lightgray-turquoise-inverse , .grr-turquoise-lightgray-inverse {
+    background: -webkit-radial-gradient(turquoise, lightgray);
+    background: -o-radial-gradient(turquoise, lightgray);
+    background: -moz-radial-gradient(turquoise, lightgray);
+    background: radial-gradient(turquoise, lightgray);
+}
+
+/*
+----------------------------------
+lightgray & lightblue
+----------------------------------
+*/
+
+.grr-lightgray-lightblue , .grr-lightblue-lightgray {
+    background: -webkit-radial-gradient(lightgray, lightblue);
+    background: -o-radial-gradient(lightgray, lightblue);
+    background: -moz-radial-gradient(lightgray, lightblue);
+    background: radial-gradient(lightgray, lightblue);
+}
+
+.grr-lightgray-lightblue-inverse , .grr-lightblue-lightgray-inverse {
+    background: -webkit-radial-gradient(lightblue, lightgray);
+    background: -o-radial-gradient(lightblue, lightgray);
+    background: -moz-radial-gradient(lightblue, lightgray);
+    background: radial-gradient(lightblue, lightgray);
+}
+
+/*
+----------------------------------
+lightgray & lightgreen
+----------------------------------
+*/
+
+.grr-lightgray-lightgreen , .grr-lightgreen-lightgray {
+    background: -webkit-radial-gradient(lightgray, lightgreen);
+    background: -o-radial-gradient(lightgray, lightgreen);
+    background: -moz-radial-gradient(lightgray, lightgreen);
+    background: radial-gradient(lightgray, lightgreen);
+}
+
+.grr-lightgray-lightgreen-inverse , .grr-lightgreen-lightgray-inverse {
+    background: -webkit-radial-gradient(lightgreen, lightgray);
+    background: -o-radial-gradient(lightgreen, lightgray);
+    background: -moz-radial-gradient(lightgreen, lightgray);
+    background: radial-gradient(lightgreen, lightgray);
+}
+
+/*
+-------------------------------------------------------------------------
+    Red is base color
+-------------------------------------------------------------------------
+*/
+
+
+/*
+----------------------------------
+red & blue
+----------------------------------
+*/
+
+.grr-red-blue , .grr-blue-red {
+    background: -webkit-radial-gradient(red, blue);
+    background: -o-radial-gradient(red, blue);
+    background: -moz-radial-gradient(red, blue);
+    background: radial-gradient(red, blue);
+}
+
+.grr-red-blue-inverse , .grr-blue-red-inverse {
+    background: -webkit-radial-gradient(blue, red);
+    background: -o-radial-gradient(blue, red);
+    background: -moz-radial-gradient(blue, red);
+    background: radial-gradient(blue, red);
+}
+
+/*
+----------------------------------
+red & green
+----------------------------------
+*/
+
+.grr-red-green , .grr-green-red {
+    background: -webkit-radial-gradient(red, green);
+    background: -o-radial-gradient(red, green);
+    background: -moz-radial-gradient(red, green);
+    background: radial-gradient(red, green);
+}
+
+.grr-red-green-inverse , .grr-green-red-inverse {
+    background: -webkit-radial-gradient(green, red);
+    background: -o-radial-gradient(green, red);
+    background: -moz-radial-gradient(green, red);
+    background: radial-gradient(green, red);
+}
+
+/*
+----------------------------------
+red & yellow
+----------------------------------
+*/
+
+.grr-red-yellow , .grr-yellow-red {
+    background: -webkit-radial-gradient(red, yellow);
+    background: -o-radial-gradient(red, yellow);
+    background: -moz-radial-gradient(red, yellow);
+    background: radial-gradient(red, yellow);
+}
+
+.grr-red-yellow-inverse , .grr-yellow-red-inverse {
+    background: -webkit-radial-gradient(yellow, red);
+    background: -o-radial-gradient(yellow, red);
+    background: -moz-radial-gradient(yellow, red);
+    background: radial-gradient(yellow, red);
+}
+
+/*
+----------------------------------
+red & purple
+----------------------------------
+*/
+
+.grr-red-purple , .grr-purple-red {
+    background: -webkit-radial-gradient(red, purple);
+    background: -o-radial-gradient(red, purple);
+    background: -moz-radial-gradient(red, purple);
+    background: radial-gradient(red, purple);
+}
+
+.grr-red-purple-inverse , .grr-purple-red-inverse {
+    background: -webkit-radial-gradient(purple, red);
+    background: -o-radial-gradient(purple, red);
+    background: -moz-radial-gradient(purple, red);
+    background: radial-gradient(purple, red);
+}
+
+/*
+----------------------------------
+red & pink
+----------------------------------
+*/
+
+.grr-red-pink , .grr-pink-red {
+    background: -webkit-radial-gradient(red, pink);
+    background: -o-radial-gradient(red, pink);
+    background: -moz-radial-gradient(red, pink);
+    background: radial-gradient(red, pink);
+}
+
+.grr-red-pink-inverse , .grr-pink-red-inverse {
+    background: -webkit-radial-gradient(pink, red);
+    background: -o-radial-gradient(pink, red);
+    background: -moz-radial-gradient(pink, red);
+    background: radial-gradient(pink, red);
+}
+
+/*
+----------------------------------
+red & brown
+----------------------------------
+*/
+
+.grr-red-brown , .grr-brown-red {
+    background: -webkit-radial-gradient(red, brown);
+    background: -o-radial-gradient(red, brown);
+    background: -moz-radial-gradient(red, brown);
+    background: radial-gradient(red, brown);
+}
+
+.grr-red-brown-inverse , .grr-brown-red-inverse {
+    background: -webkit-radial-gradient(brown, red);
+    background: -o-radial-gradient(brown, red);
+    background: -moz-radial-gradient(brown, red);
+    background: radial-gradient(brown, red);
+}
+
+/*
+----------------------------------
+red & gold
+----------------------------------
+*/
+
+.grr-red-gold , .grr-gold-red {
+    background: -webkit-radial-gradient(red, gold);
+    background: -o-radial-gradient(red, gold);
+    background: -moz-radial-gradient(red, gold);
+    background: radial-gradient(red, gold);
+}
+
+.grr-red-gold-inverse , .grr-gold-red-inverse {
+    background: -webkit-radial-gradient(gold, red);
+    background: -o-radial-gradient(gold, red);
+    background: -moz-radial-gradient(gold, red);
+    background: radial-gradient(gold, red);
+}
+
+/*
+----------------------------------
+red & maroon
+----------------------------------
+*/
+
+.grr-red-maroon , .grr-maroon-red {
+    background: -webkit-radial-gradient(red, maroon);
+    background: -o-radial-gradient(red, maroon);
+    background: -moz-radial-gradient(red, maroon);
+    background: radial-gradient(red, maroon);
+}
+
+.grr-red-maroon-inverse , .grr-maroon-red-inverse {
+    background: -webkit-radial-gradient(maroon, red);
+    background: -o-radial-gradient(maroon, red);
+    background: -moz-radial-gradient(maroon, red);
+    background: radial-gradient(maroon, red);
+}
+
+/*
+----------------------------------
+red & aqua
+----------------------------------
+*/
+
+.grr-red-aqua , .grr-aqua-red {
+    background: -webkit-radial-gradient(red, aqua);
+    background: -o-radial-gradient(red, aqua);
+    background: -moz-radial-gradient(red, aqua);
+    background: radial-gradient(red, aqua);
+}
+
+.grr-red-aqua-inverse , .grr-aqua-red-inverse {
+    background: -webkit-radial-gradient(aqua, red);
+    background: -o-radial-gradient(aqua, red);
+    background: -moz-radial-gradient(aqua, red);
+    background: radial-gradient(aqua, red);
+}
+
+/*
+----------------------------------
+red & turquoise
+----------------------------------
+*/
+
+.grr-red-turquoise , .grr-turquoise-red {
+    background: -webkit-radial-gradient(red, turquoise);
+    background: -o-radial-gradient(red, turquoise);
+    background: -moz-radial-gradient(red, turquoise);
+    background: radial-gradient(red, turquoise);
+}
+
+.grr-red-turquoise-inverse , .grr-turquoise-red-inverse {
+    background: -webkit-radial-gradient(turquoise, red);
+    background: -o-radial-gradient(turquoise, red);
+    background: -moz-radial-gradient(turquoise, red);
+    background: radial-gradient(turquoise, red);
+}
+
+/*
+----------------------------------
+red & lightblue
+----------------------------------
+*/
+
+.grr-red-lightblue , .grr-lightblue-red {
+    background: -webkit-radial-gradient(red, lightblue);
+    background: -o-radial-gradient(red, lightblue);
+    background: -moz-radial-gradient(red, lightblue);
+    background: radial-gradient(red, lightblue);
+}
+
+.grr-red-lightblue-inverse , .grr-lightblue-red-inverse {
+    background: -webkit-radial-gradient(lightblue, red);
+    background: -o-radial-gradient(lightblue, red);
+    background: -moz-radial-gradient(lightblue, red);
+    background: radial-gradient(lightblue, red);
+}
+
+/*
+----------------------------------
+red & lightgreen
+----------------------------------
+*/
+
+.grr-red-lightgreen , .grr-lightgreen-red {
+    background: -webkit-radial-gradient(red, lightgreen);
+    background: -o-radial-gradient(red, lightgreen);
+    background: -moz-radial-gradient(red, lightgreen);
+    background: radial-gradient(red, lightgreen);
+}
+
+.grr-red-lightgreen-inverse , .grr-lightgreen-red-inverse {
+    background: -webkit-radial-gradient(lightgreen, red);
+    background: -o-radial-gradient(lightgreen, red);
+    background: -moz-radial-gradient(lightgreen, red);
+    background: radial-gradient(lightgreen, red);
+}
+
+/*
+-------------------------------------------------------------------------
+    blue is base color
+-------------------------------------------------------------------------
+*/
+
+
+/*
+----------------------------------
+blue & green
+----------------------------------
+*/
+
+.grr-blue-green , .grr-green-blue {
+    background: -webkit-radial-gradient(blue, green);
+    background: -o-radial-gradient(blue, green);
+    background: -moz-radial-gradient(blue, green);
+    background: radial-gradient(blue, green);
+}
+
+.grr-blue-green-inverse , .grr-green-blue-inverse {
+    background: -webkit-radial-gradient(green, blue);
+    background: -o-radial-gradient(green, blue);
+    background: -moz-radial-gradient(green, blue);
+    background: radial-gradient(green, blue);
+}
+
+/*
+----------------------------------
+blue & yellow
+----------------------------------
+*/
+
+.grr-blue-yellow , .grr-yellow-blue {
+    background: -webkit-radial-gradient(blue, yellow);
+    background: -o-radial-gradient(blue, yellow);
+    background: -moz-radial-gradient(blue, yellow);
+    background: radial-gradient(blue, yellow);
+}
+
+.grr-blue-yellow-inverse , .grr-yellow-blue-inverse {
+    background: -webkit-radial-gradient(yellow, blue);
+    background: -o-radial-gradient(yellow, blue);
+    background: -moz-radial-gradient(yellow, blue);
+    background: radial-gradient(yellow, blue);
+}
+
+/*
+----------------------------------
+blue & purple
+----------------------------------
+*/
+
+.grr-blue-purple , .grr-purple-blue {
+    background: -webkit-radial-gradient(blue, purple);
+    background: -o-radial-gradient(blue, purple);
+    background: -moz-radial-gradient(blue, purple);
+    background: radial-gradient(blue, purple);
+}
+
+.grr-blue-purple-inverse , .grr-purple-blue-inverse {
+    background: -webkit-radial-gradient(purple, blue);
+    background: -o-radial-gradient(purple, blue);
+    background: -moz-radial-gradient(purple, blue);
+    background: radial-gradient(purple, blue);
+}
+
+/*
+----------------------------------
+blue & pink
+----------------------------------
+*/
+
+.grr-blue-pink , .grr-pink-blue {
+    background: -webkit-radial-gradient(blue, pink);
+    background: -o-radial-gradient(blue, pink);
+    background: -moz-radial-gradient(blue, pink);
+    background: radial-gradient(blue, pink);
+}
+
+.grr-blue-pink-inverse , .grr-pink-blue-inverse {
+    background: -webkit-radial-gradient(pink, blue);
+    background: -o-radial-gradient(pink, blue);
+    background: -moz-radial-gradient(pink, blue);
+    background: radial-gradient(pink, blue);
+}
+
+/*
+----------------------------------
+blue & brown
+----------------------------------
+*/
+
+.grr-blue-brown , .grr-brown-blue {
+    background: -webkit-radial-gradient(blue, brown);
+    background: -o-radial-gradient(blue, brown);
+    background: -moz-radial-gradient(blue, brown);
+    background: radial-gradient(blue, brown);
+}
+
+.grr-blue-brown-inverse , .grr-brown-blue-inverse {
+    background: -webkit-radial-gradient(brown, blue);
+    background: -o-radial-gradient(brown, blue);
+    background: -moz-radial-gradient(brown, blue);
+    background: radial-gradient(brown, blue);
+}
+
+/*
+----------------------------------
+blue & gold
+----------------------------------
+*/
+
+.grr-blue-gold , .grr-gold-blue {
+    background: -webkit-radial-gradient(blue, gold);
+    background: -o-radial-gradient(blue, gold);
+    background: -moz-radial-gradient(blue, gold);
+    background: radial-gradient(blue, gold);
+}
+
+.grr-blue-gold-inverse , .grr-gold-blue-inverse {
+    background: -webkit-radial-gradient(gold, blue);
+    background: -o-radial-gradient(gold, blue);
+    background: -moz-radial-gradient(gold, blue);
+    background: radial-gradient(gold, blue);
+}
+
+/*
+----------------------------------
+blue & maroon
+----------------------------------
+*/
+
+.grr-blue-maroon , .grr-maroon-blue {
+    background: -webkit-radial-gradient(blue, maroon);
+    background: -o-radial-gradient(blue, maroon);
+    background: -moz-radial-gradient(blue, maroon);
+    background: radial-gradient(blue, maroon);
+}
+
+.grr-blue-maroon-inverse , .grr-maroon-blue-inverse {
+    background: -webkit-radial-gradient(maroon, blue);
+    background: -o-radial-gradient(maroon, blue);
+    background: -moz-radial-gradient(maroon, blue);
+    background: radial-gradient(maroon, blue);
+}
+
+/*
+----------------------------------
+blue & aqua
+----------------------------------
+*/
+
+.grr-blue-aqua , .grr-aqua-blue {
+    background: -webkit-radial-gradient(blue, aqua);
+    background: -o-radial-gradient(blue, aqua);
+    background: -moz-radial-gradient(blue, aqua);
+    background: radial-gradient(blue, aqua);
+}
+
+.grr-blue-aqua-inverse , .grr-aqua-blue-inverse {
+    background: -webkit-radial-gradient(aqua, blue);
+    background: -o-radial-gradient(aqua, blue);
+    background: -moz-radial-gradient(aqua, blue);
+    background: radial-gradient(aqua, blue);
+}
+
+/*
+----------------------------------
+blue & turquoise
+----------------------------------
+*/
+
+.grr-blue-turquoise , .grr-turquoise-blue {
+    background: -webkit-radial-gradient(blue, turquoise);
+    background: -o-radial-gradient(blue, turquoise);
+    background: -moz-radial-gradient(blue, turquoise);
+    background: radial-gradient(blue, turquoise);
+}
+
+.grr-blue-turquoise-inverse , .grr-turquoise-blue-inverse {
+    background: -webkit-radial-gradient(turquoise, blue);
+    background: -o-radial-gradient(turquoise, blue);
+    background: -moz-radial-gradient(turquoise, blue);
+    background: radial-gradient(turquoise, blue);
+}
+
+/*
+----------------------------------
+blue & lightblue
+----------------------------------
+*/
+
+.grr-blue-lightblue , .grr-lightblue-blue {
+    background: -webkit-radial-gradient(blue, lightblue);
+    background: -o-radial-gradient(blue, lightblue);
+    background: -moz-radial-gradient(blue, lightblue);
+    background: radial-gradient(blue, lightblue);
+}
+
+.grr-blue-lightblue-inverse , .grr-lightblue-blue-inverse {
+    background: -webkit-radial-gradient(lightblue, blue);
+    background: -o-radial-gradient(lightblue, blue);
+    background: -moz-radial-gradient(lightblue, blue);
+    background: radial-gradient(lightblue, blue);
+}
+
+/*
+----------------------------------
+blue & lightgreen
+----------------------------------
+*/
+
+.grr-blue-lightgreen , .grr-lightgreen-blue {
+    background: -webkit-radial-gradient(blue, lightgreen);
+    background: -o-radial-gradient(blue, lightgreen);
+    background: -moz-radial-gradient(blue, lightgreen);
+    background: radial-gradient(blue, lightgreen);
+}
+
+.grr-blue-lightgreen-inverse , .grr-lightgreen-blue-inverse {
+    background: -webkit-radial-gradient(lightgreen, blue);
+    background: -o-radial-gradient(lightgreen, blue);
+    background: -moz-radial-gradient(lightgreen, blue);
+    background: radial-gradient(lightgreen, blue);
+}
+
+/*
+-------------------------------------------------------------------------
+    green is base color
+-------------------------------------------------------------------------
+*/
+
+
+/*
+----------------------------------
+green & yellow
+----------------------------------
+*/
+
+.grr-green-yellow , .grr-yellow-green {
+    background: -webkit-radial-gradient(green, yellow);
+    background: -o-radial-gradient(green, yellow);
+    background: -moz-radial-gradient(green, yellow);
+    background: radial-gradient(green, yellow);
+}
+
+.grr-green-yellow-inverse , .grr-yellow-green-inverse {
+    background: -webkit-radial-gradient(yellow, green);
+    background: -o-radial-gradient(yellow, green);
+    background: -moz-radial-gradient(yellow, green);
+    background: radial-gradient(yellow, green);
+}
+
+/*
+----------------------------------
+green & purple
+----------------------------------
+*/
+
+.grr-green-purple , .grr-purple-green {
+    background: -webkit-radial-gradient(green, purple);
+    background: -o-radial-gradient(green, purple);
+    background: -moz-radial-gradient(green, purple);
+    background: radial-gradient(green, purple);
+}
+
+.grr-green-purple-inverse , .grr-purple-green-inverse {
+    background: -webkit-radial-gradient(purple, green);
+    background: -o-radial-gradient(purple, green);
+    background: -moz-radial-gradient(purple, green);
+    background: radial-gradient(purple, green);
+}
+
+/*
+----------------------------------
+green & pink
+----------------------------------
+*/
+
+.grr-green-pink , .grr-pink-green {
+    background: -webkit-radial-gradient(green, pink);
+    background: -o-radial-gradient(green, pink);
+    background: -moz-radial-gradient(green, pink);
+    background: radial-gradient(green, pink);
+}
+
+.grr-green-pink-inverse , .grr-pink-green-inverse {
+    background: -webkit-radial-gradient(pink, green);
+    background: -o-radial-gradient(pink, green);
+    background: -moz-radial-gradient(pink, green);
+    background: radial-gradient(pink, green);
+}
+
+/*
+----------------------------------
+green & brown
+----------------------------------
+*/
+
+.grr-green-brown , .grr-brown-green {
+    background: -webkit-radial-gradient(green, brown);
+    background: -o-radial-gradient(green, brown);
+    background: -moz-radial-gradient(green, brown);
+    background: radial-gradient(green, brown);
+}
+
+.grr-green-brown-inverse , .grr-brown-green-inverse {
+    background: -webkit-radial-gradient(brown, green);
+    background: -o-radial-gradient(brown, green);
+    background: -moz-radial-gradient(brown, green);
+    background: radial-gradient(brown, green);
+}
+
+/*
+----------------------------------
+green & gold
+----------------------------------
+*/
+
+.grr-green-gold , .grr-gold-green {
+    background: -webkit-radial-gradient(green, gold);
+    background: -o-radial-gradient(green, gold);
+    background: -moz-radial-gradient(green, gold);
+    background: radial-gradient(green, gold);
+}
+
+.grr-green-gold-inverse , .grr-gold-green-inverse {
+    background: -webkit-radial-gradient(gold, green);
+    background: -o-radial-gradient(gold, green);
+    background: -moz-radial-gradient(gold, green);
+    background: radial-gradient(gold, green);
+}
+
+/*
+----------------------------------
+green & maroon
+----------------------------------
+*/
+
+.grr-green-maroon , .grr-maroon-green {
+    background: -webkit-radial-gradient(green, maroon);
+    background: -o-radial-gradient(green, maroon);
+    background: -moz-radial-gradient(green, maroon);
+    background: radial-gradient(green, maroon);
+}
+
+.grr-green-maroon-inverse , .grr-maroon-green-inverse {
+    background: -webkit-radial-gradient(maroon, green);
+    background: -o-radial-gradient(maroon, green);
+    background: -moz-radial-gradient(maroon, green);
+    background: radial-gradient(maroon, green);
+}
+
+/*
+----------------------------------
+green & aqua
+----------------------------------
+*/
+
+.grr-green-aqua , .grr-aqua-green {
+    background: -webkit-radial-gradient(green, aqua);
+    background: -o-radial-gradient(green, aqua);
+    background: -moz-radial-gradient(green, aqua);
+    background: radial-gradient(green, aqua);
+}
+
+.grr-green-aqua-inverse , .grr-aqua-green-inverse {
+    background: -webkit-radial-gradient(aqua, green);
+    background: -o-radial-gradient(aqua, green);
+    background: -moz-radial-gradient(aqua, green);
+    background: radial-gradient(aqua, green);
+}
+
+/*
+----------------------------------
+green & turquoise
+----------------------------------
+*/
+
+.grr-green-turquoise , .grr-turquoise-green {
+    background: -webkit-radial-gradient(green, turquoise);
+    background: -o-radial-gradient(green, turquoise);
+    background: -moz-radial-gradient(green, turquoise);
+    background: radial-gradient(green, turquoise);
+}
+
+.grr-green-turquoise-inverse , .grr-turquoise-green-inverse {
+    background: -webkit-radial-gradient(turquoise, green);
+    background: -o-radial-gradient(turquoise, green);
+    background: -moz-radial-gradient(turquoise, green);
+    background: radial-gradient(turquoise, green);
+}
+
+/*
+----------------------------------
+green & lightblue
+----------------------------------
+*/
+
+.grr-green-lightblue , .grr-lightblue-green {
+    background: -webkit-radial-gradient(green, lightblue);
+    background: -o-radial-gradient(green, lightblue);
+    background: -moz-radial-gradient(green, lightblue);
+    background: radial-gradient(green, lightblue);
+}
+
+.grr-green-lightblue-inverse , .grr-lightblue-green-inverse {
+    background: -webkit-radial-gradient(lightblue, green);
+    background: -o-radial-gradient(lightblue, green);
+    background: -moz-radial-gradient(lightblue, green);
+    background: radial-gradient(lightblue, green);
+}
+
+/*
+----------------------------------
+green & lightgreen
+----------------------------------
+*/
+
+.grr-green-lightgreen , .grr-lightgreen-green {
+    background: -webkit-radial-gradient(green, lightgreen);
+    background: -o-radial-gradient(green, lightgreen);
+    background: -moz-radial-gradient(green, lightgreen);
+    background: radial-gradient(green, lightgreen);
+}
+
+.grr-green-lightgreen-inverse , .grr-lightgreen-green-inverse {
+    background: -webkit-radial-gradient(lightgreen, green);
+    background: -o-radial-gradient(lightgreen, green);
+    background: -moz-radial-gradient(lightgreen, green);
+    background: radial-gradient(lightgreen, green);
+}
+
+/*
+-------------------------------------------------------------------------
+    Yellow is base color
+-------------------------------------------------------------------------
+*/
+
+
+/*
+----------------------------------
+yellow & purple
+----------------------------------
+*/
+
+.grr-yellow-purple , .grr-purple-yellow {
+    background: -webkit-radial-gradient(yellow, purple);
+    background: -o-radial-gradient(yellow, purple);
+    background: -moz-radial-gradient(yellow, purple);
+    background: radial-gradient(yellow, purple);
+}
+
+.grr-yellow-purple-inverse , .grr-purple-yellow-inverse {
+    background: -webkit-radial-gradient(purple, yellow);
+    background: -o-radial-gradient(purple, yellow);
+    background: -moz-radial-gradient(purple, yellow);
+    background: radial-gradient(purple, yellow);
+}
+
+/*
+----------------------------------
+yellow & pink
+----------------------------------
+*/
+
+.grr-yellow-pink , .grr-pink-yellow {
+    background: -webkit-radial-gradient(yellow, pink);
+    background: -o-radial-gradient(yellow, pink);
+    background: -moz-radial-gradient(yellow, pink);
+    background: radial-gradient(yellow, pink);
+}
+
+.grr-yellow-pink-inverse , .grr-pink-yellow-inverse {
+    background: -webkit-radial-gradient(pink, yellow);
+    background: -o-radial-gradient(pink, yellow);
+    background: -moz-radial-gradient(pink, yellow);
+    background: radial-gradient(pink, yellow);
+}
+
+/*
+----------------------------------
+yellow & brown
+----------------------------------
+*/
+
+.grr-yellow-brown , .grr-brown-yellow {
+    background: -webkit-radial-gradient(yellow, brown);
+    background: -o-radial-gradient(yellow, brown);
+    background: -moz-radial-gradient(yellow, brown);
+    background: radial-gradient(yellow, brown);
+}
+
+.grr-yellow-brown-inverse , .grr-brown-yellow-inverse {
+    background: -webkit-radial-gradient(brown, yellow);
+    background: -o-radial-gradient(brown, yellow);
+    background: -moz-radial-gradient(brown, yellow);
+    background: radial-gradient(brown, yellow);
+}
+
+/*
+----------------------------------
+yellow & gold
+----------------------------------
+*/
+
+.grr-yellow-gold , .grr-gold-yellow {
+    background: -webkit-radial-gradient(yellow, gold);
+    background: -o-radial-gradient(yellow, gold);
+    background: -moz-radial-gradient(yellow, gold);
+    background: radial-gradient(yellow, gold);
+}
+
+.grr-yellow-gold-inverse , .grr-gold-yellow-inverse {
+    background: -webkit-radial-gradient(gold, yellow);
+    background: -o-radial-gradient(gold, yellow);
+    background: -moz-radial-gradient(gold, yellow);
+    background: radial-gradient(gold, yellow);
+}
+
+/*
+----------------------------------
+yellow & maroon
+----------------------------------
+*/
+
+.grr-yellow-maroon , .grr-maroon-yellow {
+    background: -webkit-radial-gradient(yellow, maroon);
+    background: -o-radial-gradient(yellow, maroon);
+    background: -moz-radial-gradient(yellow, maroon);
+    background: radial-gradient(yellow, maroon);
+}
+
+.grr-yellow-maroon-inverse , .grr-maroon-yellow-inverse {
+    background: -webkit-radial-gradient(maroon, yellow);
+    background: -o-radial-gradient(maroon, yellow);
+    background: -moz-radial-gradient(maroon, yellow);
+    background: radial-gradient(maroon, yellow);
+}
+
+/*
+----------------------------------
+yellow & aqua
+----------------------------------
+*/
+
+.grr-yellow-aqua , .grr-aqua-yellow {
+    background: -webkit-radial-gradient(yellow, aqua);
+    background: -o-radial-gradient(yellow, aqua);
+    background: -moz-radial-gradient(yellow, aqua);
+    background: radial-gradient(yellow, aqua);
+}
+
+.grr-yellow-aqua-inverse , .grr-aqua-yellow-inverse {
+    background: -webkit-radial-gradient(aqua, yellow);
+    background: -o-radial-gradient(aqua, yellow);
+    background: -moz-radial-gradient(aqua, yellow);
+    background: radial-gradient(aqua, yellow);
+}
+
+/*
+----------------------------------
+yellow & turquoise
+----------------------------------
+*/
+
+.grr-yellow-turquoise , .grr-turquoise-yellow {
+    background: -webkit-radial-gradient(yellow, turquoise);
+    background: -o-radial-gradient(yellow, turquoise);
+    background: -moz-radial-gradient(yellow, turquoise);
+    background: radial-gradient(yellow, turquoise);
+}
+
+.grr-yellow-turquoise-inverse , .grr-turquoise-yellow-inverse {
+    background: -webkit-radial-gradient(turquoise, yellow);
+    background: -o-radial-gradient(turquoise, yellow);
+    background: -moz-radial-gradient(turquoise, yellow);
+    background: radial-gradient(turquoise, yellow);
+}
+
+/*
+----------------------------------
+yellow & lightblue
+----------------------------------
+*/
+
+.grr-yellow-lightblue , .grr-lightblue-yellow {
+    background: -webkit-radial-gradient(yellow, lightblue);
+    background: -o-radial-gradient(yellow, lightblue);
+    background: -moz-radial-gradient(yellow, lightblue);
+    background: radial-gradient(yellow, lightblue);
+}
+
+.grr-yellow-lightblue-inverse , .grr-lightblue-yellow-inverse {
+    background: -webkit-radial-gradient(lightblue, yellow);
+    background: -o-radial-gradient(lightblue, yellow);
+    background: -moz-radial-gradient(lightblue, yellow);
+    background: radial-gradient(lightblue, yellow);
+}
+
+/*
+----------------------------------
+yellow & lightgreen
+----------------------------------
+*/
+
+.grr-yellow-lightgreen , .grr-lightgreen-yellow {
+    background: -webkit-radial-gradient(yellow, lightgreen);
+    background: -o-radial-gradient(yellow, lightgreen);
+    background: -moz-radial-gradient(yellow, lightgreen);
+    background: radial-gradient(yellow, lightgreen);
+}
+
+.grr-yellow-lightgreen-inverse , .grr-lightgreen-yellow-inverse {
+    background: -webkit-radial-gradient(lightgreen, yellow);
+    background: -o-radial-gradient(lightgreen, yellow);
+    background: -moz-radial-gradient(lightgreen, yellow);
+    background: radial-gradient(lightgreen, yellow);
+}
+
+/*
+-------------------------------------------------------------------------
+    Orange is base color
+-------------------------------------------------------------------------
+*/
+
+/*
+----------------------------------
+orange & red
+----------------------------------
+*/
+
+.grr-orange-red , .grr-red-orange {
+    background: -webkit-radial-gradient(orange, red);
+    background: -o-radial-gradient(orange, red);
+    background: -moz-radial-gradient(orange, red);
+    background: radial-gradient(orange, red);
+}
+
+.grr-orange-red-inverse , .grr-red-orange-inverse {
+    background: -webkit-radial-gradient(red, orange);
+    background: -o-radial-gradient(red, orange);
+    background: -moz-radial-gradient(red, orange);
+    background: radial-gradient(red, orange);
+}
+
+/*
+----------------------------------
+orange & blue
+----------------------------------
+*/
+
+.grr-orange-blue , .grr-blue-orange {
+    background: -webkit-radial-gradient(orange, blue);
+    background: -o-radial-gradient(orange, blue);
+    background: -moz-radial-gradient(orange, blue);
+    background: radial-gradient(orange, blue);
+}
+
+.grr-orange-blue-inverse , .grr-blue-orange-inverse {
+    background: -webkit-radial-gradient(blue, orange);
+    background: -o-radial-gradient(blue, orange);
+    background: -moz-radial-gradient(blue, orange);
+    background: radial-gradient(blue, orange);
+}
+
+/*
+----------------------------------
+orange & green
+----------------------------------
+*/
+
+.grr-orange-green , .grr-green-orange {
+    background: -webkit-radial-gradient(orange, green);
+    background: -o-radial-gradient(orange, green);
+    background: -moz-radial-gradient(orange, green);
+    background: radial-gradient(orange, green);
+}
+
+.grr-orange-green-inverse , .grr-green-orange-inverse {
+    background: -webkit-radial-gradient(green, orange);
+    background: -o-radial-gradient(green, orange);
+    background: -moz-radial-gradient(green, orange);
+    background: radial-gradient(green, orange);
+}
+
+/*
+----------------------------------
+orange & yellow
+----------------------------------
+*/
+
+.grr-orange-yellow , .grr-yellow-orange {
+    background: -webkit-radial-gradient(orange, yellow);
+    background: -o-radial-gradient(orange, yellow);
+    background: -moz-radial-gradient(orange, yellow);
+    background: radial-gradient(orange, yellow);
+}
+
+.grr-orange-yellow-inverse , .grr-yellow-orange-inverse {
+    background: -webkit-radial-gradient(yellow, orange);
+    background: -o-radial-gradient(yellow, orange);
+    background: -moz-radial-gradient(yellow, orange);
+    background: radial-gradient(yellow, orange);
+}
+
+/*
+----------------------------------
+orange & purple
+----------------------------------
+*/
+
+.grr-orange-purple , .grr-purple-orange {
+    background: -webkit-radial-gradient(orange, purple);
+    background: -o-radial-gradient(orange, purple);
+    background: -moz-radial-gradient(orange, purple);
+    background: radial-gradient(orange, purple);
+}
+
+.grr-orange-purple-inverse , .grr-purple-orange-inverse {
+    background: -webkit-radial-gradient(purple, orange);
+    background: -o-radial-gradient(purple, orange);
+    background: -moz-radial-gradient(purple, orange);
+    background: radial-gradient(purple, orange);
+}
+
+/*
+----------------------------------
+orange & pink
+----------------------------------
+*/
+
+.grr-orange-pink , .grr-pink-orange {
+    background: -webkit-radial-gradient(orange, pink);
+    background: -o-radial-gradient(orange, pink);
+    background: -moz-radial-gradient(orange, pink);
+    background: radial-gradient(orange, pink);
+}
+
+.grr-orange-pink-inverse , .grr-pink-orange-inverse {
+    background: -webkit-radial-gradient(pink, orange);
+    background: -o-radial-gradient(pink, orange);
+    background: -moz-radial-gradient(pink, orange);
+    background: radial-gradient(pink, orange);
+}
+
+/*
+----------------------------------
+orange & brown
+----------------------------------
+*/
+
+.grr-orange-brown , .grr-brown-orange {
+    background: -webkit-radial-gradient(orange, brown);
+    background: -o-radial-gradient(orange, brown);
+    background: -moz-radial-gradient(orange, brown);
+    background: radial-gradient(orange, brown);
+}
+
+.grr-orange-brown-inverse , .grr-brown-orange-inverse {
+    background: -webkit-radial-gradient(brown, orange);
+    background: -o-radial-gradient(brown, orange);
+    background: -moz-radial-gradient(brown, orange);
+    background: radial-gradient(brown, orange);
+}
+
+/*
+----------------------------------
+orange & gold
+----------------------------------
+*/
+
+.grr-orange-gold , .grr-gold-orange {
+    background: -webkit-radial-gradient(orange, gold);
+    background: -o-radial-gradient(orange, gold);
+    background: -moz-radial-gradient(orange, gold);
+    background: radial-gradient(orange, gold);
+}
+
+.grr-orange-gold-inverse , .grr-gold-orange-inverse {
+    background: -webkit-radial-gradient(gold, orange);
+    background: -o-radial-gradient(gold, orange);
+    background: -moz-radial-gradient(gold, orange);
+    background: radial-gradient(gold, orange);
+}
+
+/*
+----------------------------------
+orange & maroon
+----------------------------------
+*/
+
+.grr-orange-maroon , .grr-maroon-orange {
+    background: -webkit-radial-gradient(orange, maroon);
+    background: -o-radial-gradient(orange, maroon);
+    background: -moz-radial-gradient(orange, maroon);
+    background: radial-gradient(orange, maroon);
+}
+
+.grr-orange-maroon-inverse , .grr-maroon-orange-inverse {
+    background: -webkit-radial-gradient(maroon, orange);
+    background: -o-radial-gradient(maroon, orange);
+    background: -moz-radial-gradient(maroon, orange);
+    background: radial-gradient(maroon, orange);
+}
+
+/*
+----------------------------------
+orange & aqua
+----------------------------------
+*/
+
+.grr-orange-aqua , .grr-aqua-orange {
+    background: -webkit-radial-gradient(orange, aqua);
+    background: -o-radial-gradient(orange, aqua);
+    background: -moz-radial-gradient(orange, aqua);
+    background: radial-gradient(orange, aqua);
+}
+
+.grr-orange-aqua-inverse , .grr-aqua-orange-inverse {
+    background: -webkit-radial-gradient(aqua, orange);
+    background: -o-radial-gradient(aqua, orange);
+    background: -moz-radial-gradient(aqua, orange);
+    background: radial-gradient(aqua, orange);
+}
+
+/*
+----------------------------------
+orange & turquoise
+----------------------------------
+*/
+
+.grr-orange-turquoise , .grr-turquoise-orange {
+    background: -webkit-radial-gradient(orange, turquoise);
+    background: -o-radial-gradient(orange, turquoise);
+    background: -moz-radial-gradient(orange, turquoise);
+    background: radial-gradient(orange, turquoise);
+}
+
+.grr-orange-turquoise-inverse , .grr-turquoise-orange-inverse {
+    background: -webkit-radial-gradient(turquoise, orange);
+    background: -o-radial-gradient(turquoise, orange);
+    background: -moz-radial-gradient(turquoise, orange);
+    background: radial-gradient(turquoise, orange);
+}
+
+/*
+----------------------------------
+orange & lightblue
+----------------------------------
+*/
+
+.grr-orange-lightblue , .grr-lightblue-orange {
+    background: -webkit-radial-gradient(orange, lightblue);
+    background: -o-radial-gradient(orange, lightblue);
+    background: -moz-radial-gradient(orange, lightblue);
+    background: radial-gradient(orange, lightblue);
+}
+
+.grr-orange-lightblue-inverse , .grr-lightblue-orange-inverse {
+    background: -webkit-radial-gradient(lightblue, orange);
+    background: -o-radial-gradient(lightblue, orange);
+    background: -moz-radial-gradient(lightblue, orange);
+    background: radial-gradient(lightblue, orange);
+}
+
+/*
+----------------------------------
+orange & lightgreen
+----------------------------------
+*/
+
+.grr-orange-lightgreen , .grr-lightgreen-orange {
+    background: -webkit-radial-gradient(orange, lightgreen);
+    background: -o-radial-gradient(orange, lightgreen);
+    background: -moz-radial-gradient(orange, lightgreen);
+    background: radial-gradient(orange, lightgreen);
+}
+
+.grr-orange-lightgreen-inverse , .grr-lightgreen-orange-inverse {
+    background: -webkit-radial-gradient(lightgreen, orange);
+    background: -o-radial-gradient(lightgreen, orange);
+    background: -moz-radial-gradient(lightgreen, orange);
+    background: radial-gradient(lightgreen, orange);
+}
+
+/*
+-------------------------------------------------------------------------
+    purple is base color
+-------------------------------------------------------------------------
+*/
+
+/*
+----------------------------------
+purple & pink
+----------------------------------
+*/
+
+.grr-purple-pink , .grr-pink-purple {
+    background: -webkit-radial-gradient(purple, pink);
+    background: -o-radial-gradient(purple, pink);
+    background: -moz-radial-gradient(purple, pink);
+    background: radial-gradient(purple, pink);
+}
+
+.grr-purple-pink-inverse , .grr-pink-purple-inverse {
+    background: -webkit-radial-gradient(pink, purple);
+    background: -o-radial-gradient(pink, purple);
+    background: -moz-radial-gradient(pink, purple);
+    background: radial-gradient(pink, purple);
+}
+
+/*
+----------------------------------
+purple & brown
+----------------------------------
+*/
+
+.grr-purple-brown , .grr-brown-purple {
+    background: -webkit-radial-gradient(purple, brown);
+    background: -o-radial-gradient(purple, brown);
+    background: -moz-radial-gradient(purple, brown);
+    background: radial-gradient(purple, brown);
+}
+
+.grr-purple-brown-inverse , .grr-brown-purple-inverse {
+    background: -webkit-radial-gradient(brown, purple);
+    background: -o-radial-gradient(brown, purple);
+    background: -moz-radial-gradient(brown, purple);
+    background: radial-gradient(brown, purple);
+}
+
+/*
+----------------------------------
+purple & gold
+----------------------------------
+*/
+
+.grr-purple-gold , .grr-gold-purple {
+    background: -webkit-radial-gradient(purple, gold);
+    background: -o-radial-gradient(purple, gold);
+    background: -moz-radial-gradient(purple, gold);
+    background: radial-gradient(purple, gold);
+}
+
+.grr-purple-gold-inverse , .grr-gold-purple-inverse {
+    background: -webkit-radial-gradient(gold, purple);
+    background: -o-radial-gradient(gold, purple);
+    background: -moz-radial-gradient(gold, purple);
+    background: radial-gradient(gold, purple);
+}
+
+/*
+----------------------------------
+purple & maroon
+----------------------------------
+*/
+
+.grr-purple-maroon , .grr-maroon-purple {
+    background: -webkit-radial-gradient(purple, maroon);
+    background: -o-radial-gradient(purple, maroon);
+    background: -moz-radial-gradient(purple, maroon);
+    background: radial-gradient(purple, maroon);
+}
+
+.grr-purple-maroon-inverse , .grr-maroon-purple-inverse {
+    background: -webkit-radial-gradient(maroon, purple);
+    background: -o-radial-gradient(maroon, purple);
+    background: -moz-radial-gradient(maroon, purple);
+    background: radial-gradient(maroon, purple);
+}
+
+/*
+----------------------------------
+purple & aqua
+----------------------------------
+*/
+
+.grr-purple-aqua , .grr-aqua-purple {
+    background: -webkit-radial-gradient(purple, aqua);
+    background: -o-radial-gradient(purple, aqua);
+    background: -moz-radial-gradient(purple, aqua);
+    background: radial-gradient(purple, aqua);
+}
+
+.grr-purple-aqua-inverse , .grr-aqua-purple-inverse {
+    background: -webkit-radial-gradient(aqua, purple);
+    background: -o-radial-gradient(aqua, purple);
+    background: -moz-radial-gradient(aqua, purple);
+    background: radial-gradient(aqua, purple);
+}
+
+/*
+----------------------------------
+purple & turquoise
+----------------------------------
+*/
+
+.grr-purple-turquoise , .grr-turquoise-purple {
+    background: -webkit-radial-gradient(purple, turquoise);
+    background: -o-radial-gradient(purple, turquoise);
+    background: -moz-radial-gradient(purple, turquoise);
+    background: radial-gradient(purple, turquoise);
+}
+
+.grr-purple-turquoise-inverse , .grr-turquoise-purple-inverse {
+    background: -webkit-radial-gradient(turquoise, purple);
+    background: -o-radial-gradient(turquoise, purple);
+    background: -moz-radial-gradient(turquoise, purple);
+    background: radial-gradient(turquoise, purple);
+}
+
+/*
+----------------------------------
+purple & lightblue
+----------------------------------
+*/
+
+.grr-purple-lightblue , .grr-lightblue-purple {
+    background: -webkit-radial-gradient(purple, lightblue);
+    background: -o-radial-gradient(purple, lightblue);
+    background: -moz-radial-gradient(purple, lightblue);
+    background: radial-gradient(purple, lightblue);
+}
+
+.grr-purple-lightblue-inverse , .grr-lightblue-purple-inverse {
+    background: -webkit-radial-gradient(lightblue, purple);
+    background: -o-radial-gradient(lightblue, purple);
+    background: -moz-radial-gradient(lightblue, purple);
+    background: radial-gradient(lightblue, purple);
+}
+
+/*
+----------------------------------
+purple & lightgreen
+----------------------------------
+*/
+
+.grr-purple-lightgreen , .grr-lightgreen-purple {
+    background: -webkit-radial-gradient(purple, lightgreen);
+    background: -o-radial-gradient(purple, lightgreen);
+    background: -moz-radial-gradient(purple, lightgreen);
+    background: radial-gradient(purple, lightgreen);
+}
+
+.grr-purple-lightgreen-inverse , .grr-lightgreen-purple-inverse {
+    background: -webkit-radial-gradient(lightgreen, purple);
+    background: -o-radial-gradient(lightgreen, purple);
+    background: -moz-radial-gradient(lightgreen, purple);
+    background: radial-gradient(lightgreen, purple);
+}
+
+/*
+-------------------------------------------------------------------------
+    pink is base color
+-------------------------------------------------------------------------
+*/
+
+/*
+----------------------------------
+pink & brown
+----------------------------------
+*/
+
+.grr-pink-brown , .grr-brown-pink {
+    background: -webkit-radial-gradient(pink, brown);
+    background: -o-radial-gradient(pink, brown);
+    background: -moz-radial-gradient(pink, brown);
+    background: radial-gradient(pink, brown);
+}
+
+.grr-pink-brown-inverse , .grr-brown-pink-inverse {
+    background: -webkit-radial-gradient(brown, pink);
+    background: -o-radial-gradient(brown, pink);
+    background: -moz-radial-gradient(brown, pink);
+    background: radial-gradient(brown, pink);
+}
+
+/*
+----------------------------------
+pink & gold
+----------------------------------
+*/
+
+.grr-pink-gold , .grr-gold-pink {
+    background: -webkit-radial-gradient(pink, gold);
+    background: -o-radial-gradient(pink, gold);
+    background: -moz-radial-gradient(pink, gold);
+    background: radial-gradient(pink, gold);
+}
+
+.grr-pink-gold-inverse , .grr-gold-pink-inverse {
+    background: -webkit-radial-gradient(gold, pink);
+    background: -o-radial-gradient(gold, pink);
+    background: -moz-radial-gradient(gold, pink);
+    background: radial-gradient(gold, pink);
+}
+
+/*
+----------------------------------
+pink & maroon
+----------------------------------
+*/
+
+.grr-pink-maroon , .grr-maroon-pink {
+    background: -webkit-radial-gradient(pink, maroon);
+    background: -o-radial-gradient(pink, maroon);
+    background: -moz-radial-gradient(pink, maroon);
+    background: radial-gradient(pink, maroon);
+}
+
+.grr-pink-maroon-inverse , .grr-maroon-pink-inverse {
+    background: -webkit-radial-gradient(maroon, pink);
+    background: -o-radial-gradient(maroon, pink);
+    background: -moz-radial-gradient(maroon, pink);
+    background: radial-gradient(maroon, pink);
+}
+
+/*
+----------------------------------
+pink & aqua
+----------------------------------
+*/
+
+.grr-pink-aqua , .grr-aqua-pink {
+    background: -webkit-radial-gradient(pink, aqua);
+    background: -o-radial-gradient(pink, aqua);
+    background: -moz-radial-gradient(pink, aqua);
+    background: radial-gradient(pink, aqua);
+}
+
+.grr-pink-aqua-inverse , .grr-aqua-pink-inverse {
+    background: -webkit-radial-gradient(aqua, pink);
+    background: -o-radial-gradient(aqua, pink);
+    background: -moz-radial-gradient(aqua, pink);
+    background: radial-gradient(aqua, pink);
+}
+
+/*
+----------------------------------
+pink & turquoise
+----------------------------------
+*/
+
+.grr-pink-turquoise , .grr-turquoise-pink {
+    background: -webkit-radial-gradient(pink, turquoise);
+    background: -o-radial-gradient(pink, turquoise);
+    background: -moz-radial-gradient(pink, turquoise);
+    background: radial-gradient(pink, turquoise);
+}
+
+.grr-pink-turquoise-inverse , .grr-turquoise-pink-inverse {
+    background: -webkit-radial-gradient(turquoise, pink);
+    background: -o-radial-gradient(turquoise, pink);
+    background: -moz-radial-gradient(turquoise, pink);
+    background: radial-gradient(turquoise, pink);
+}
+
+/*
+----------------------------------
+pink & lightblue
+----------------------------------
+*/
+
+.grr-pink-lightblue , .grr-lightblue-pink {
+    background: -webkit-radial-gradient(pink, lightblue);
+    background: -o-radial-gradient(pink, lightblue);
+    background: -moz-radial-gradient(pink, lightblue);
+    background: radial-gradient(pink, lightblue);
+}
+
+.grr-pink-lightblue-inverse , .grr-lightblue-pink-inverse {
+    background: -webkit-radial-gradient(lightblue, pink);
+    background: -o-radial-gradient(lightblue, pink);
+    background: -moz-radial-gradient(lightblue, pink);
+    background: radial-gradient(lightblue, pink);
+}
+
+/*
+----------------------------------
+pink & lightgreen
+----------------------------------
+*/
+
+.grr-pink-lightgreen , .grr-lightgreen-pink {
+    background: -webkit-radial-gradient(pink, lightgreen);
+    background: -o-radial-gradient(pink, lightgreen);
+    background: -moz-radial-gradient(pink, lightgreen);
+    background: radial-gradient(pink, lightgreen);
+}
+
+.grr-pink-lightgreen-inverse , .grr-lightgreen-pink-inverse {
+    background: -webkit-radial-gradient(lightgreen, pink);
+    background: -o-radial-gradient(lightgreen, pink);
+    background: -moz-radial-gradient(lightgreen, pink);
+    background: radial-gradient(lightgreen, pink);
+}
+
+/*
+-------------------------------------------------------------------------
+    brown is base color
+-------------------------------------------------------------------------
+*/
+
+/*
+----------------------------------
+brown & gold
+----------------------------------
+*/
+
+.grr-brown-gold , .grr-gold-brown {
+    background: -webkit-radial-gradient(brown, gold);
+    background: -o-radial-gradient(brown, gold);
+    background: -moz-radial-gradient(brown, gold);
+    background: radial-gradient(brown, gold);
+}
+
+.grr-brown-gold-inverse , .grr-gold-brown-inverse {
+    background: -webkit-radial-gradient(gold, brown);
+    background: -o-radial-gradient(gold, brown);
+    background: -moz-radial-gradient(gold, brown);
+    background: radial-gradient(gold, brown);
+}
+
+/*
+----------------------------------
+brown & maroon
+----------------------------------
+*/
+
+.grr-brown-maroon , .grr-maroon-brown {
+    background: -webkit-radial-gradient(brown, maroon);
+    background: -o-radial-gradient(brown, maroon);
+    background: -moz-radial-gradient(brown, maroon);
+    background: radial-gradient(brown, maroon);
+}
+
+.grr-brown-maroon-inverse , .grr-maroon-brown-inverse {
+    background: -webkit-radial-gradient(maroon, brown);
+    background: -o-radial-gradient(maroon, brown);
+    background: -moz-radial-gradient(maroon, brown);
+    background: radial-gradient(maroon, brown);
+}
+
+/*
+----------------------------------
+brown & aqua
+----------------------------------
+*/
+
+.grr-brown-aqua , .grr-aqua-brown {
+    background: -webkit-radial-gradient(brown, aqua);
+    background: -o-radial-gradient(brown, aqua);
+    background: -moz-radial-gradient(brown, aqua);
+    background: radial-gradient(brown, aqua);
+}
+
+.grr-brown-aqua-inverse , .grr-aqua-brown-inverse {
+    background: -webkit-radial-gradient(aqua, brown);
+    background: -o-radial-gradient(aqua, brown);
+    background: -moz-radial-gradient(aqua, brown);
+    background: radial-gradient(aqua, brown);
+}
+
+/*
+----------------------------------
+brown & turquoise
+----------------------------------
+*/
+
+.grr-brown-turquoise , .grr-turquoise-brown {
+    background: -webkit-radial-gradient(brown, turquoise);
+    background: -o-radial-gradient(brown, turquoise);
+    background: -moz-radial-gradient(brown, turquoise);
+    background: radial-gradient(brown, turquoise);
+}
+
+.grr-brown-turquoise-inverse , .grr-turquoise-brown-inverse {
+    background: -webkit-radial-gradient(turquoise, brown);
+    background: -o-radial-gradient(turquoise, brown);
+    background: -moz-radial-gradient(turquoise, brown);
+    background: radial-gradient(turquoise, brown);
+}
+
+/*
+----------------------------------
+brown & lightblue
+----------------------------------
+*/
+
+.grr-brown-lightblue , .grr-lightblue-brown {
+    background: -webkit-radial-gradient(brown, lightblue);
+    background: -o-radial-gradient(brown, lightblue);
+    background: -moz-radial-gradient(brown, lightblue);
+    background: radial-gradient(brown, lightblue);
+}
+
+.grr-brown-lightblue-inverse , .grr-lightblue-brown-inverse {
+    background: -webkit-radial-gradient(lightblue, brown);
+    background: -o-radial-gradient(lightblue, brown);
+    background: -moz-radial-gradient(lightblue, brown);
+    background: radial-gradient(lightblue, brown);
+}
+
+/*
+----------------------------------
+brown & lightgreen
+----------------------------------
+*/
+
+.grr-brown-lightgreen , .grr-lightgreen-brown {
+    background: -webkit-radial-gradient(brown, lightgreen);
+    background: -o-radial-gradient(brown, lightgreen);
+    background: -moz-radial-gradient(brown, lightgreen);
+    background: radial-gradient(brown, lightgreen);
+}
+
+.grr-brown-lightgreen-inverse , .grr-lightgreen-brown-inverse {
+    background: -webkit-radial-gradient(lightgreen, brown);
+    background: -o-radial-gradient(lightgreen, brown);
+    background: -moz-radial-gradient(lightgreen, brown);
+    background: radial-gradient(lightgreen, brown);
+}
+
+/*
+-------------------------------------------------------------------------
+    turquoise is base color
+-------------------------------------------------------------------------
+*/
+
+/*
+----------------------------------
+turquoise & gold
+----------------------------------
+*/
+
+.grr-turquoise-gold , .grr-gold-turquoise {
+    background: -webkit-radial-gradient(turquoise, gold);
+    background: -o-radial-gradient(turquoise, gold);
+    background: -moz-radial-gradient(turquoise, gold);
+    background: radial-gradient(turquoise, gold);
+}
+
+.grr-turquoise-gold-inverse , .grr-gold-turquoise-inverse {
+    background: -webkit-radial-gradient(gold, turquoise);
+    background: -o-radial-gradient(gold, turquoise);
+    background: -moz-radial-gradient(gold, turquoise);
+    background: radial-gradient(gold, turquoise);
+}
+
+/*
+----------------------------------
+turquoise & maroon
+----------------------------------
+*/
+
+.grr-turquoise-maroon , .grr-maroon-turquoise {
+    background: -webkit-radial-gradient(turquoise, maroon);
+    background: -o-radial-gradient(turquoise, maroon);
+    background: -moz-radial-gradient(turquoise, maroon);
+    background: radial-gradient(turquoise, maroon);
+}
+
+.grr-turquoise-maroon-inverse , .grr-maroon-turquoise-inverse {
+    background: -webkit-radial-gradient(maroon, turquoise);
+    background: -o-radial-gradient(maroon, turquoise);
+    background: -moz-radial-gradient(maroon, turquoise);
+    background: radial-gradient(maroon, turquoise);
+}
+
+/*
+----------------------------------
+turquoise & aqua
+----------------------------------
+*/
+
+.grr-turquoise-aqua , .grr-aqua-turquoise {
+    background: -webkit-radial-gradient(turquoise, aqua);
+    background: -o-radial-gradient(turquoise, aqua);
+    background: -moz-radial-gradient(turquoise, aqua);
+    background: radial-gradient(turquoise, aqua);
+}
+
+.grr-turquoise-aqua-inverse , .grr-aqua-turquoise-inverse {
+    background: -webkit-radial-gradient(aqua, turquoise);
+    background: -o-radial-gradient(aqua, turquoise);
+    background: -moz-radial-gradient(aqua, turquoise);
+    background: radial-gradient(aqua, turquoise);
+}
+
+/*
+----------------------------------
+turquoise & lightblue
+----------------------------------
+*/
+
+.grr-turquoise-lightblue , .grr-lightblue-turquoise {
+    background: -webkit-radial-gradient(turquoise, lightblue);
+    background: -o-radial-gradient(turquoise, lightblue);
+    background: -moz-radial-gradient(turquoise, lightblue);
+    background: radial-gradient(turquoise, lightblue);
+}
+
+.grr-turquoise-lightblue-inverse , .grr-lightblue-turquoise-inverse {
+    background: -webkit-radial-gradient(lightblue, turquoise);
+    background: -o-radial-gradient(lightblue, turquoise);
+    background: -moz-radial-gradient(lightblue, turquoise);
+    background: radial-gradient(lightblue, turquoise);
+}
+
+/*
+----------------------------------
+turquoise & lightgreen
+----------------------------------
+*/
+
+.grr-turquoise-lightgreen , .grr-lightgreen-turquoise {
+    background: -webkit-radial-gradient(turquoise, lightgreen);
+    background: -o-radial-gradient(turquoise, lightgreen);
+    background: -moz-radial-gradient(turquoise, lightgreen);
+    background: radial-gradient(turquoise, lightgreen);
+}
+
+.grr-turquoise-lightgreen-inverse , .grr-lightgreen-turquoise-inverse {
+    background: -webkit-radial-gradient(lightgreen, turquoise);
+    background: -o-radial-gradient(lightgreen, turquoise);
+    background: -moz-radial-gradient(lightgreen, turquoise);
+    background: radial-gradient(lightgreen, turquoise);
+}
+
+/*
+-------------------------------------------------------------------------
+    lightblue is base color
+-------------------------------------------------------------------------
+*/
+
+/*
+----------------------------------
+lightblue & gold
+----------------------------------
+*/
+
+.grr-lightblue-gold , .grr-gold-lightblue {
+    background: -webkit-radial-gradient(lightblue, gold);
+    background: -o-radial-gradient(lightblue, gold);
+    background: -moz-radial-gradient(lightblue, gold);
+    background: radial-gradient(lightblue, gold);
+}
+
+.grr-lightblue-gold-inverse , .grr-gold-lightblue-inverse {
+    background: -webkit-radial-gradient(gold, lightblue);
+    background: -o-radial-gradient(gold, lightblue);
+    background: -moz-radial-gradient(gold, lightblue);
+    background: radial-gradient(gold, lightblue);
+}
+
+/*
+----------------------------------
+lightblue & maroon
+----------------------------------
+*/
+
+.grr-lightblue-maroon , .grr-maroon-lightblue {
+    background: -webkit-radial-gradient(lightblue, maroon);
+    background: -o-radial-gradient(lightblue, maroon);
+    background: -moz-radial-gradient(lightblue, maroon);
+    background: radial-gradient(lightblue, maroon);
+}
+
+.grr-lightblue-maroon-inverse , .grr-maroon-lightblue-inverse {
+    background: -webkit-radial-gradient(maroon, lightblue);
+    background: -o-radial-gradient(maroon, lightblue);
+    background: -moz-radial-gradient(maroon, lightblue);
+    background: radial-gradient(maroon, lightblue);
+}
+
+/*
+----------------------------------
+lightblue & aqua
+----------------------------------
+*/
+
+.grr-lightblue-aqua , .grr-aqua-lightblue {
+    background: -webkit-radial-gradient(lightblue, aqua);
+    background: -o-radial-gradient(lightblue, aqua);
+    background: -moz-radial-gradient(lightblue, aqua);
+    background: radial-gradient(lightblue, aqua);
+}
+
+.grr-lightblue-aqua-inverse , .grr-aqua-lightblue-inverse {
+    background: -webkit-radial-gradient(aqua, lightblue);
+    background: -o-radial-gradient(aqua, lightblue);
+    background: -moz-radial-gradient(aqua, lightblue);
+    background: radial-gradient(aqua, lightblue);
+}
+
+/*
+----------------------------------
+lightblue & lightgreen
+----------------------------------
+*/
+
+.grr-lightblue-lightgreen , .grr-lightgreen-lightblue {
+    background: -webkit-radial-gradient(lightblue, lightgreen);
+    background: -o-radial-gradient(lightblue, lightgreen);
+    background: -moz-radial-gradient(lightblue, lightgreen);
+    background: radial-gradient(lightblue, lightgreen);
+}
+
+.grr-lightblue-lightgreen-inverse , .grr-lightgreen-lightblue-inverse {
+    background: -webkit-radial-gradient(lightgreen, lightblue);
+    background: -o-radial-gradient(lightgreen, lightblue);
+    background: -moz-radial-gradient(lightgreen, lightblue);
+    background: radial-gradient(lightgreen, lightblue);
+}
+
+/*
+-------------------------------------------------------------------------
+    lightgreen is base color
+-------------------------------------------------------------------------
+*/
+
+
+/*
+----------------------------------
+lightgreen & gold
+----------------------------------
+*/
+
+.grr-lightgreen-gold , .grr-gold-lightgreen {
+    background: -webkit-radial-gradient(lightgreen, gold);
+    background: -o-radial-gradient(lightgreen, gold);
+    background: -moz-radial-gradient(lightgreen, gold);
+    background: radial-gradient(lightgreen, gold);
+}
+
+.grr-lightgreen-gold-inverse , .grr-gold-lightgreen-inverse {
+    background: -webkit-radial-gradient(gold, lightgreen);
+    background: -o-radial-gradient(gold, lightgreen);
+    background: -moz-radial-gradient(gold, lightgreen);
+    background: radial-gradient(gold, lightgreen);
+}
+
+/*
+----------------------------------
+lightgreen & maroon
+----------------------------------
+*/
+
+.grr-lightgreen-maroon , .grr-maroon-lightgreen {
+    background: -webkit-radial-gradient(lightgreen, maroon);
+    background: -o-radial-gradient(lightgreen, maroon);
+    background: -moz-radial-gradient(lightgreen, maroon);
+    background: radial-gradient(lightgreen, maroon);
+}
+
+.grr-lightgreen-maroon-inverse , .grr-maroon-lightgreen-inverse {
+    background: -webkit-radial-gradient(maroon, lightgreen);
+    background: -o-radial-gradient(maroon, lightgreen);
+    background: -moz-radial-gradient(maroon, lightgreen);
+    background: radial-gradient(maroon, lightgreen);
+}
+
+/*
+----------------------------------
+lightgreen & aqua
+----------------------------------
+*/
+
+.grr-lightgreen-aqua , .grr-aqua-lightgreen {
+    background: -webkit-radial-gradient(lightgreen, aqua);
+    background: -o-radial-gradient(lightgreen, aqua);
+    background: -moz-radial-gradient(lightgreen, aqua);
+    background: radial-gradient(lightgreen, aqua);
+}
+
+.grr-lightgreen-aqua-inverse , .grr-aqua-lightgreen-inverse {
+    background: -webkit-radial-gradient(aqua, lightgreen);
+    background: -o-radial-gradient(aqua, lightgreen);
+    background: -moz-radial-gradient(aqua, lightgreen);
+    background: radial-gradient(aqua, lightgreen);
+}
+
+/*
+-------------------------------------------------------------------------
+    gold is base color
+-------------------------------------------------------------------------
+*/
+
+/*
+----------------------------------
+gold & maroon
+----------------------------------
+*/
+
+.grr-gold-maroon , .grr-maroon-gold {
+    background: -webkit-radial-gradient(gold, maroon);
+    background: -o-radial-gradient(gold, maroon);
+    background: -moz-radial-gradient(gold, maroon);
+    background: radial-gradient(gold, maroon);
+}
+
+.grr-gold-maroon-inverse , .grr-maroon-gold-inverse {
+    background: -webkit-radial-gradient(maroon, gold);
+    background: -o-radial-gradient(maroon, gold);
+    background: -moz-radial-gradient(maroon, gold);
+    background: radial-gradient(maroon, gold);
+}
+
+/*
+----------------------------------
+gold & aqua
+----------------------------------
+*/
+
+.grr-gold-aqua , .grr-aqua-gold {
+    background: -webkit-radial-gradient(gold, aqua);
+    background: -o-radial-gradient(gold, aqua);
+    background: -moz-radial-gradient(gold, aqua);
+    background: radial-gradient(gold, aqua);
+}
+
+.grr-gold-aqua-inverse , .grr-aqua-gold-inverse {
+    background: -webkit-radial-gradient(aqua, gold);
+    background: -o-radial-gradient(aqua, gold);
+    background: -moz-radial-gradient(aqua, gold);
+    background: radial-gradient(aqua, gold);
+}
+
+/*
+-------------------------------------------------------------------------
+    maroon is base color
+-------------------------------------------------------------------------
+*/
+
+/*
+----------------------------------
+maroon & aqua
+----------------------------------
+*/
+
+.grr-maroon-aqua , .grr-aqua-maroon {
+    background: -webkit-radial-gradient(maroon, aqua);
+    background: -o-radial-gradient(maroon, aqua);
+    background: -moz-radial-gradient(maroon, aqua);
+    background: radial-gradient(maroon, aqua);
+}
+
+.grr-maroon-aqua-inverse , .grr-aqua-maroon-inverse {
+    background: -webkit-radial-gradient(aqua, maroon);
+    background: -o-radial-gradient(aqua, maroon);
+    background: -moz-radial-gradient(aqua, maroon);
+    background: radial-gradient(aqua, maroon);
+}

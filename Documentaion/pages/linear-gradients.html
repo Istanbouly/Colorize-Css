@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Linear Gradients</title>
+        <link rel="stylesheet" href="../assets/colorize/colorize-basics-linear.min.css">
+        <link rel="stylesheet" href="../assets/colorize/colorize-specials.min.css">
+        <link rel="stylesheet" href="../assets/colorize/colorize-solids.min.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+
+
+    <nav>
+        <a href="solids.html">Solid Colors</a>
+        <a href="radial-gradients.html">Radial Gradients</a>
+        <a href="linear-gradients.html">Linear Gradients</a>
+    </nav>
+    
+    <div class="container">
+        <h1>Table Of Content</h1>
+        <ul type="circle">
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#create-linear-gradient-tutorial">How To Create A Linear Gradient ?</a></li>
+            <li><a href="#basic-examples">Some Example On Basic Gradient</a></li>
+            <li><a href="#angle-range">Angle Range</a></li>
+            <li><a href="#tips">Tips</a></li>
+            <li><a href="#advanced-linear-gradients">Advanced Linear Gradients</a></li>
+            <li><a href="#advanced-examples">Some Example On Advanced Linear Gradients (Degree 270)</a></li>
+        </ul>
+
+
+        <h1 id="introduction">#Introduction</h1>
+        <section>
+            <p>
+                The <span class="cl-fg-red-flat">colorize-basics-linear.css</span> file allows you create basic linear gradients , In this file there is 14 different colors there is <span class="cl-fg-red-flat">2</span> basic colors <span class="cl-fg-red-flat">(black &amp; white)</span> and <span class="cl-fg-red-flat">12</span> extra colors <span class="cl-fg-red-flat">(red , green , blue , yellow , orange , purple , pink , brown , turquoise , gray , lightblue , lightgreen)</span>
+            </p>
+
+            <p>
+                Why black &amp; white are basic colors while the others are extras simply because you can only mix white with any color or mix black with any color but for example you can't mix green and red that's why.
+            </p>
+        </section>
+        <h1 id="create-linear-gradient-tutorial">#How to create a linear gradient ?</h1>
+
+        <section>
+            <p>
+                To create a linear gradient you should use a class that follows this convention 
+                <span class="cl-fg-red-flat">grl-degree-color1-color2</span> <br><br>
+
+                <span class="cl-fg-red-flat">grl :</span> stands for gradient linear <br>
+                <span class="cl-fg-red-flat">degree :</span> here you specify the degree of your gradient <br>
+                <span class="cl-fg-red-flat">color1 :</span>similar to radial gradient here you specify the first color in the gradient mix <br>                 
+                <span class="cl-fg-red-flat">color2 :</span>here you specify the second color in the gradient mix
+            </p>
+        </section>
+        <h1 id="basic-examples">#Some Example On Basic Gradient</h1>
+        <section>
+            <p>
+                here is black &amp; white with different angles :
+            </p>
+
+            <div class="sample grl-30-black-white">
+                <span class="cl-fg-white">grl-30-black-white</span>
+            </div>
+            <div class="sample grl-60-black-white">
+                <span class="cl-fg-white">grl-60-black-white</span>
+            </div>
+            <div class="sample grl-90-black-white">
+                <span class="cl-fg-white">grl-90-black-white</span>
+            </div>
+            <div class="sample grl-120-black-white">
+                <span class="cl-fg-white">grl-120-black-white</span>
+            </div>
+            <div class="sample grl-150-black-white">
+                <span class="cl-fg-white">grl-150-black-white</span>
+            </div>
+            <div class="sample grl-180-black-white">
+                <span class="cl-fg-white">grl-180-black-white</span>
+            </div>
+            <div class="sample grl-210-black-white">
+                <span class="cl-fg-white">grl-210-black-white</span>
+            </div>
+            <div class="sample grl-270-black-white">
+                <span class="cl-fg-black">grl-270-black-white</span>
+            </div>
+            <div class="sample grl-360-black-white">
+                <span class="cl-fg-black">grl-360-black-white</span>
+            </div>
+
+            <p>
+                For sure you don't have to memorize the order of colors just like radial gradients
+                <br><br>
+
+                <span class="cl-fg-red-flat">grl-90-black-white</span> = <span class="cl-fg-red-flat">grl-90-white-black</span>
+            </p>
+        </section>
+        <h1 id="angle-range">#Angles Range</h1>
+        <section>
+            <p>
+                The angles <span class="cl-fg-red-flat">(degrees)</span> supported by the library ranges from <span class="cl-fg-red-flat">10 to 360</span> in increments of <span class="cl-fg-red-flat">10</span> there is also angle <span class="cl-fg-red-flat">1</span>
+            </p>
+        </section>
+
+        <h1 id="tips">#Tips :</h1>
+        <ol>
+            <li>We suggest that you use these gradients on small elements like buttons</li>
+            <li>If you want to use them on larger elements like body for example we suggest you use a degree like 90 or 270 so the gradient never repeat</li>
+            <li>Take a Couple of seconds and make some custome gradients</li>
+        </ol>
+
+        <h1 id="advanced-linear-gradients">#Advanced Linear Gradients</h1>
+        <section>
+            <p>
+                Advanced Linear gradients are listed inside of <span class="cl-fg-red-flat">colorize-specials.css</span> file these are custom gradients they follow the same convention as the basic linear gradients <span class="cl-fg-red-flat">but instead of the color1 &amp; color2 part we replace it with the name of the custom gradient</span> <br><br>
+
+                Here is a table with all of the custom gradients :
+            </p>
+
+            <table>
+                <tr>
+                    <td>peach</td>
+                    <td>hazel</td>
+                    <td>sel</td>
+                    <td>harsheys</td>
+                </tr>
+                <tr>
+                    <td>royal</td>
+                    <td>diana</td>
+                    <td>tranqil</td>
+                    <td>grapefruit-sunset</td>
+                </tr>
+                <tr>
+                    <td>solid-vault</td>
+                    <td>instagram</td>
+                    <td>shrimpy</td>
+                    <td>calm-darya</td>
+                </tr>
+                <tr>
+                    <td>bourbon</td>
+                    <td>titanium</td>
+                    <td>opa</td>
+                    <td>moss</td>
+                </tr>
+                <tr>
+                    <td>juicy-orange</td>
+                    <td>purple-paradise</td>
+                    <td>monte-carlo</td>
+                    <td>green-beach</td>
+                </tr>
+            </table>
+
+            <p>
+                Currently the <span class="cl-fg-red-flat">colorize-specials</span> file supports 20 different custom gradients any custom gradient name that consist from two parts, the name parts could be swaped as if the were colors so you don't have to memorize the order of them for example the custom gradient called 
+                <span class="cl-fg-red-flat">grapefruit-sunset</span> could be typed as any of these <br><br>
+
+                <span class="cl-fg-red-flat">grl-270-grapefruit-sunset</span><br>
+                <span class="cl-fg-red-flat">grl-270-sunset-grapefruit</span><br><br>
+
+                <span class="cl-fg-red-flat">Notice that these custom gradients are inspired from</span>
+                <a href="https://uigradients.com/">https://uigradients.com/</a>
+            </p>
+        </section>
+        
+        <h1 id="advanced-examples">#Some Example On Advanced Linear Gradients (Degree 270)</h1>
+        <section>
+            <div class="sample grl-270-diana">
+                grl-270-diana
+            </div>                
+            <div class="sample grl-270-solid-vault">
+                grl-270-solid-vault
+            </div>             
+            <div class="sample grl-270-instagram">
+                grl-270-instagram
+            </div>
+            <div class="sample grl-270-royal">
+                grl-270-royak
+            </div>    
+            <div class="sample grl-270-shrimpy">
+                grl-270-shrimpy
+            </div>    
+            <div class="sample grl-270-juicy-orange">
+                grl-270-juicy-orange
+            </div>    
+            <div class="sample grl-270-green-beach">
+                grl-270-green-beach
+            </div>    
+            <div class="sample grl-270-tranqil">
+                grl-270-tranqil
+            </div>    
+            <div class="sample grl-270-monte-carlo">
+                grl-270-monte-carlo
+            </div>    
+            <div class="sample grl-270-hazel">
+                grl-270-hazel
+            </div>               
+            <div class="sample grl-270-sel">
+                grl-270-sel
+            </div>                
+            <div class="sample grl-270-harsheys">
+                grl-270-harsheys
+            </div>    
+
+
+        </section>
+
+    </div>
+    
+
+    <span class="cl-fg-red-flat"></span>
+</body>
+</html>
